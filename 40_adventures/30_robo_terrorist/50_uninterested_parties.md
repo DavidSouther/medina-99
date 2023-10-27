@@ -1,11 +1,15 @@
 ---
-generated: 2023-10-21T14:21:37.473Z
-debug: {"id":"chatcmpl-8C78XxWOHMKnpOPIC8kfg00Er4Yv6","model":"gpt-4-0613","usage":{"prompt_tokens":2554,"completion_tokens":447,"total_tokens":3001},"finish":"stop"}
----
----
 generated: 2023-10-21T14:21:26.674Z
-debug: {"id":"chatcmpl-8C79014kRkYftB1QkTKHBDvJS9dp4","model":"gpt-4-0613","usage":{"prompt_tokens":2574,"completion_tokens":327,"total_tokens":2901},"finish":"stop"}
+debug:
+  {
+    "id": "chatcmpl-8C79014kRkYftB1QkTKHBDvJS9dp4",
+    "model": "gpt-4-0613",
+    "usage":
+      { "prompt_tokens": 2574, "completion_tokens": 327, "total_tokens": 2901 },
+    "finish": "stop",
+  }
 ---
+
 Further potential allies might be:
 
 1. **Draayna the Merchant Queen**: A merchant, not directly concerned with the criminal activities or politics of the region, but her vast network of contacts and information could prove invaluable. She may not be particularly interested in the crime, but the detectives could barter for her cooperation with mutually beneficial conditions.

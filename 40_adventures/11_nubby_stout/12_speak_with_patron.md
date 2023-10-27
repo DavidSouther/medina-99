@@ -1,0 +1,1 @@
+> "You lookin' around for why this here space natty light is so light? I heard this place wa' s'posed to be a bastion of the dark stout beers! Blimey. Well, I did some some supicious lookin' far travelers hangin' around down the block, but I dunno why the beat guards didn't do something about them. They was out too, y'know!"

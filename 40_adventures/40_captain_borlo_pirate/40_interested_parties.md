@@ -1,11 +1,15 @@
 ---
 generated: 2023-10-21T14:21:16.064Z
-debug: {"id":"chatcmpl-8C78AJF3KszFRMtPpLXkoFjvtIsTx","model":"gpt-4-0613","usage":{"prompt_tokens":2053,"completion_tokens":502,"total_tokens":2555},"finish":"stop"}
+debug:
+  {
+    "id": "chatcmpl-8C78AJF3KszFRMtPpLXkoFjvtIsTx",
+    "model": "gpt-4-0613",
+    "usage":
+      { "prompt_tokens": 2053, "completion_tokens": 502, "total_tokens": 2555 },
+    "finish": "stop",
+  }
 ---
----
-generated: 2023-10-21T14:20:52.356Z
-debug: {"id":"chatcmpl-8C77tw5U5utMAEqrroGoFTnc8YnCI","model":"gpt-4-0613","usage":{"prompt_tokens":1891,"completion_tokens":356,"total_tokens":2247},"finish":"stop"}
----
+
 **1. Stellar Security Bureau (SSB):** This is a large intergalactic law enforcement agency responsible for maintaining peace and security across known space. They would be very interested in cracking down on Borlo's operation and bringing the notorious pirate to justice. Once they learn about the disrupted warp drive routes and the other clues, they would likely dedicate substantial resources to solve the case and apprehend the criminals.
 
 **2. The Torelli Mining Company:** As the primary company that operates in the mining colonies on Yshlok Planet, the Torelli Mining Co. has a vested interest in ensuring its supply lines remain uninterrupted. Any disruption to the transportation of their goods and resources would surely attract their attention, and they might hire external mercenaries or private investigators to look into this issue if they feel authorities are not doing enough.

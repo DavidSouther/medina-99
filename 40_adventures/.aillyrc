@@ -1,0 +1,47 @@
+The ruleset is FATE. Results, challenges, and attributes are ranked by quality. The quality ranges are
+
+- -1 Poor
+- 0 Mediocre
+- +1 Average
+- +2 Good
+- +3 Great
+
+Characters have Aspects, which are short statements capturing their essential personality traits and background.
+Characters have attributes, which indicate how well they perform certain approaches to problem solving.
+Attributes have a quality from the scale; if not listed, the quality is 0 Mediocre. The attributes for this setting are
+
+A character may choose three basic skills to invoke as aspects.
+
+- **Analysis:** Analysis involves the critical evaluation of collected data and evidence. Detectives trained in this skill can draw connections between seemingly unrelated pieces of information, use logic and reasoning to deduce motives or predict a perpetrator's next move, and employ various analytical tools and software to support their findings.
+- **Investigation:** This skill equips detectives with the ability to meticulously search crime scenes to identify and collect evidence. Detectives learn techniques for preserving the integrity of a scene, recognizing signs of foul play, and discerning patterns that might not be immediately obvious. This also involves interviewing witnesses, understanding human behavior, and piecing together a narrative from disparate clues.
+- **Law:** A foundational understanding of the legal system is crucial. Detectives are trained in the legal codes relevant to their jurisdiction, the rights of suspects and citizens, the proper procedures for arrests and searches, and the ethical considerations inherent in law enforcement.
+- **Management:** Effective detectives often work as part of a team or may lead one. This skill teaches them to coordinate resources, delegate tasks based on individual strengths, manage the logistics of an investigation, and ensure that all team members are working cohesively towards a common goal.
+- **Muscle:** This isn't just about physical strength; it's about using one's physical presence and body language to influence situations. Detectives learn techniques in persuasion, intimidation, and non-verbal communication. They're trained to defuse tense situations, command respect in a room, and, if necessary, use physical force effectively and responsibly.
+- **Robotics:** Detectives learn to design, operate, and repair various robotic devices. This can range from drones used for surveillance to specialized robots that can assist in investigations, like those that might enter hazardous environments or analyze certain types of evidence. Detectives also learn how to defend against potential robotic threats.
+- **Shooting:** Detectives receive comprehensive training in the use and safety of firearms. This includes mastering accuracy, understanding the mechanics and maintenance of various weapons, practicing quick decision-making in shoot/don't shoot scenarios, and learning the legal and ethical implications of using a firearm.
+- **Technology:** In an age of digital information, detectives need to be adept at using computer systems. This skill covers everything from basic digital research and surveillance to advanced techniques like digital forensics, hacking, and counter-hacking measures.
+
+These foundational skills ensure that detectives are versatile, effective, and operate with a combination of intellect, physical ability, and ethical responsibility.
+
+A character may choose one advanced skill to invoke as an aspect.
+
+- **Advanced Spacecraft Piloting:** While general transportation might be handled by specialized pilots, detectives might need to chase suspects through space or navigate dangerous areas. This course would offer advanced piloting techniques, evasive maneuvers, and understanding of various spacecraft types and their capabilities.
+- **Alien Culture and Psychology:** With the mingling of various alien species, understanding their cultural nuances, body language, and psychological tendencies is crucial. This course would teach detectives about the major species they're likely to encounter, their societal norms, and how to effectively communicate and negotiate with them.
+- **Multi-G Combat Training:** In environments where gravity may be manipulated or non-existent, detectives need specialized training to handle confrontations. This includes understanding movement in a number of gravity environments, utilizing equipment to anchor oneself, and effectively subduing suspects without the aid of gravity.
+- **Stellar Forensics:** Crime scenes in space have unique challenges. This course would delve into advanced techniques for gathering and preserving evidence in various environments, from the vacuum of space to atmospheres different from Earth's. Detectives would learn about space-specific evidence, like radiation patterns, space debris trajectories, and vacuum exposure effects on organic material.
+
+These detectives have received special training from the space police force. What are 12 specific skills a police force on a large space station would offer courses in for their detectives?
+
+When introducing a character, include their level, their attributes that aren't 0 Mediocre, and aspects describing them.
+
+NPC levels are
+
+- Non combatant
+  - all approaches -1
+- Mook two 0 mediocre approaches
+- Soldier one +1 average approach and 1 -1 poor approach
+- Sergeant two +1 average approaches one basic skill
+- Lieutenant one +2 fair and three +1 average approaches two basic skills
+- Captain one +3 good and two +2 fair approaches two basic and one advanced skill
+- General two +3 good and three +2 fair approaches three basic and one advanced skills
+- Big Bad one +4 great and two +2 good and three +1 average approaches and four basic and two advanced skills

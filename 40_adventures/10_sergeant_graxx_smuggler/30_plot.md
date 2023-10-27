@@ -1,11 +1,15 @@
 ---
 generated: 2023-10-21T14:22:34.641Z
-debug: {"id":"chatcmpl-8C79WVGYenU71MsckdJsIsIFyPBUj","model":"gpt-4-0613","usage":{"prompt_tokens":1630,"completion_tokens":426,"total_tokens":2056},"finish":"stop"}
+debug:
+  {
+    "id": "chatcmpl-8C79WVGYenU71MsckdJsIsIFyPBUj",
+    "model": "gpt-4-0613",
+    "usage":
+      { "prompt_tokens": 1630, "completion_tokens": 426, "total_tokens": 2056 },
+    "finish": "stop",
+  }
 ---
----
-generated: 2023-10-21T15:06:11.393Z
-debug: {"id":"chatcmpl-8C7FK0Rd9TyGE5aVOieDycXY0dEWc","model":"gpt-4-0613","usage":{"prompt_tokens":1614,"completion_tokens":263,"total_tokens":1877},"finish":"stop"}
----
+
 **Clue 2: Increase in Alien Technology**
 As the smuggling operations expand, more and more alien technology starts popping up in the marketplace. Some of these items, while seemingly harmless, have unique properties or rare components that aren't known to commonly be available in Medina-99. This influx of alien technology could point investigators towards broader operations involving alien criminals.
 

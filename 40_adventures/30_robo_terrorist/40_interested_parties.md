@@ -1,7 +1,15 @@
 ---
 generated: 2023-10-21T14:21:01.570Z
-debug: {"id":"chatcmpl-8C788jsZvlM7kMQmTdDg2zih4BpsM","model":"gpt-4-0613","usage":{"prompt_tokens":2085,"completion_tokens":354,"total_tokens":2439},"finish":"stop"}
+debug:
+  {
+    "id": "chatcmpl-8C788jsZvlM7kMQmTdDg2zih4BpsM",
+    "model": "gpt-4-0613",
+    "usage":
+      { "prompt_tokens": 2085, "completion_tokens": 354, "total_tokens": 2439 },
+    "finish": "stop",
+  }
 ---
+
 Further interested parties may include:
 
 1. **The Corporate Elite**: The high-powered executives and shareholders in the robotics company that dismissed Vaxis may have a keen interest in the outcome. They would want to see Vaxis stopped before his plans come to fruition as a demonstration of his dangerous genius could ruin their business’s reputation, and potential justice for his dismissal would not be palatable either.
