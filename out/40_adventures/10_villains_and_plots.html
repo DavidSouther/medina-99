@@ -1,0 +1,112 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8" /><link rel="stylesheet" type="text/css" href="https://unpkg.com/@davidsouther/jiffies-css" /><style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --font-family-base: Poppins;
+  --font-family-header: Orbitron;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body > main {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.cover {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (prefers-color-scheme: dark) {
+  a, [role=link] {
+    --text-color: #BBBBFF;
+  }
+}
+
+nav .breadcrumbs li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+nav .breadcrumbs li::marker {
+  content: '→';
+}
+
+:is(body,#body,#root)>aside:has(>nav) {
+  width: min-content;
+}
+
+:is(body,#body,#root)>aside>nav {
+  max-height: 90vh;
+  overscroll-behavior: contain;
+  overflow: scroll;
+}
+
+aside nav ul li a {
+  white-space: nowrap;
+}
+
+.table-of-contents {
+  container-type: size;
+
+  & > ol {
+    columns: var(--text-columns);
+  }
+}
+
+.table-of-contents {
+  --text-columns: 1;
+}
+
+@container (width > 600px) {
+  .table-of-contents > ol {
+    --text-columns: 3;
+  }
+}
+
+@container (width > 400px) {
+  .table-of-contents > ol {
+    --text-columns: 2;
+  }
+}
+
+</style></head><body><header class="fluid"><nav><!-- Cover --><h1><a href="/">Medina-99</a></h1><h2 /><h3>By David Souther</h3></nav></header><main class"><article id="40_adventures_10_villains_and_plots"><header><nav><h1>Villains And Plots</h1><ol class="breadcrumbs"><li><a href="#40_adventures">Adventures</a></li><li><a href="#40_adventures_10_villains_and_plots">Villains And Plots</a></li></ol><a href="#">Top</a></nav></header><main><ol>
+<li><p><strong>Villain: Sergeant Graxx</strong> (Level - Sergeant, Attributes - +1 Toughness, +1 Muscle, Aspect - &quot;Resilient Alien Brute&quot;)</p>
+<ul>
+<li>Crime: Smuggling</li>
+<li>Goal: Graxx is part of a secretive and deadly alien cartel whose aim is to smuggle illegal psychoactive substances into Medina-99 to corrupt and profit off its wealthy inhabitants. His goal is to establish a firm control over the trade and extend their alien cartel influence in the station.</li>
+</ul>
+</li>
+<li><p><strong>Villain: Mistress Zephira</strong> (Level - Lieutenant, Attributes - +1 Smarts, +1 Technology, Aspect - &quot;Mysterious Hacktivist&quot;)</p>
+<ul>
+<li>Crime: Cyber-attacks</li>
+<li>Goal: Zephira is a tireless activist in the pursuit of what she calls ‘information freedom.’ That freedom involves hacking into restricted systems and stealing sensitive data. Her ultimate goal is to expose an alleged conspiracy of the interstellar companies manipulating politics on Medina-99.</li>
+</ul>
+</li>
+<li><p><strong>Villain: Vaxis &quot;Viper&quot; Thorns</strong> (Level – Lieutenant, Attributes - +1 Smarts, +1 Robotic, Aspects - &quot;Genius Inventor&quot;, &quot;Cold-blooded Strategist&quot; and &quot;Robotics Overlord&quot;)</p>
+<ul>
+<li>Crime: Robotic Terrorism</li>
+<li>Goal: Vaxis is a vengeful former employee for a robotics corporation, seeking retribution for being wronged. His aim is to employ his self-made rogue robotic minions to disrupt the station&#39;s peaceful order and ultimately hold it hostage, aiming to bargain reshaping the socioeconomic structures of Medina-99, on the grounds of his being wronged.</li>
+</ul>
+</li>
+<li><p><strong>Villain: Captain Borlo &quot;The Ironfist&quot; Banes</strong> (Level - Captain, Attributes - +2 Grit, +1 Muscle, Aspects - &quot;Ruthless Pirate Leader&quot; and &quot;Fearless Fighter&quot;)</p>
+<ul>
+<li>Crime: Piracy</li>
+<li>Goal: Captain Banes is an infamous space pirate known for his ruthlessness. His goal is to disrupt the warp drives routes, attempting to seize and loot transports carrying valuable resources in and out of Medina-99.</li>
+</ul>
+</li>
+<li><p><strong>Villain: General Xaela Vendrix</strong> (Level - General, Attributes - +2 Smarts, +2 Law, Aspects - &quot;Corrupt Official&quot; and &quot;Charismatic Manipulator&quot;)</p>
+<ul>
+<li>Crime: Political Corruption</li>
+<li>Goal: Xaela is a high-ranking official manipulating the administration of Grell-I-10 Transfer Station for her own benefit. Her goal is to abuse her power to exploit the system, earning vast wealth through backdoor deals and embezzlement.</li>
+</ul>
+</li>
+</ol></main></article></main><footer class="fluid"><nav>©2023 David Souther</nav></footer><script src="https://unpkg.com/@davidsouther/jiffies-css/accessibility.js"></script></body></html>

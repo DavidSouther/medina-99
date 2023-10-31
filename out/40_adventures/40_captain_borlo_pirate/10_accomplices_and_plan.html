@@ -1,0 +1,93 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8" /><link rel="stylesheet" type="text/css" href="https://unpkg.com/@davidsouther/jiffies-css" /><style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --font-family-base: Poppins;
+  --font-family-header: Orbitron;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body > main {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.cover {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (prefers-color-scheme: dark) {
+  a, [role=link] {
+    --text-color: #BBBBFF;
+  }
+}
+
+nav .breadcrumbs li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+nav .breadcrumbs li::marker {
+  content: '→';
+}
+
+:is(body,#body,#root)>aside:has(>nav) {
+  width: min-content;
+}
+
+:is(body,#body,#root)>aside>nav {
+  max-height: 90vh;
+  overscroll-behavior: contain;
+  overflow: scroll;
+}
+
+aside nav ul li a {
+  white-space: nowrap;
+}
+
+.table-of-contents {
+  container-type: size;
+
+  & > ol {
+    columns: var(--text-columns);
+  }
+}
+
+.table-of-contents {
+  --text-columns: 1;
+}
+
+@container (width > 600px) {
+  .table-of-contents > ol {
+    --text-columns: 3;
+  }
+}
+
+@container (width > 400px) {
+  .table-of-contents > ol {
+    --text-columns: 2;
+  }
+}
+
+</style></head><body><header class="fluid"><nav><!-- Cover --><h1><a href="/">Medina-99</a></h1><h2 /><h3>By David Souther</h3></nav></header><main class"><article id="40_adventures_40_captain_borlo_pirate_10_accomplices_and_plan"><header><nav><h1>Accomplices And Plan</h1><ol class="breadcrumbs"><li><a href="#40_adventures">Adventures</a></li><li><a href="#40_adventures_40_captain_borlo_pirate">Captain Borlo Pirate</a></li><li><a href="#40_adventures_40_captain_borlo_pirate_10_accomplices_and_plan">Accomplices And Plan</a></li></ol><a href="#">Top</a></nav></header><main><p><strong>Accomplice 1: Lieutenant Mira &quot;The Serpent&quot; Nerys</strong> (Level - Lieutenant, Attributes - +1 Smarts, +1 Cool, Aspect - &quot;Manipulative Strategist&quot;)</p>
+<ul>
+<li>Role: Mira is the brains behind Borlo&#39;s operations. She is a cunning and conniving individual who maps out their piracy routes and targets. She&#39;s also proactive at infiltrating networks and hacking systems to gain leverage.</li>
+</ul>
+<p><strong>Accomplice 2: Sergeant Uzol &quot;The Juggernaut&quot; Grav</strong> (Level - Sergeant, Attribute - +1 Toughness, Aspect - &quot;Intimidating Muscle&quot;)</p>
+<ul>
+<li>Role: Uzol is the muscle of the team, responsible for dealing with any physical obstacles or threats. His imposing presence alone can often diffuse resistance and his loyalty to Borlo is unshakeable.</li>
+</ul>
+<p><strong>Accomplice 3: Soldier Graak, the Grell</strong> (Level - Soldier, Attribute - -1 Smarts, +1 Shooting, Aspect - &quot;Loyal Alien Mercenary&quot;)</p>
+<ul>
+<li>Role: Graak is a skilled marksman. Despite his average intelligence, his exceptional skill with an array of weapons more than makes up for it. He comes from a warrior race, the Grell, well-known around the galaxy for their combat prowess. Graak is very loyal to the team.</li>
+</ul>
+<p><strong>Plan:</strong> The Iron Fist will disrupt the warp drive routes with the use of an illegally modified warp jamming device that Mira was able to steal and modify. This will effectively isolate the target transports and allow for an easy ambush by the pirate crew. Uzol and Graak will lead the boarding parties to secure the transport vehicles and subdue any crew not willing to cooperate. Mira will be in charge of hacking into the transports&#39; systems to ensure dominance over the controls while the looting is in progress. Their targeted resources are primarily rare minerals, high-tech components, and fuels, as per intelligence Mira strategically gathered. After the operation, they plan to retreat to their hidden asteroid base in an as yet uncharted section of the local system.</p></main></article></main><footer class="fluid"><nav>©2023 David Souther</nav></footer><script src="https://unpkg.com/@davidsouther/jiffies-css/accessibility.js"></script></body></html>

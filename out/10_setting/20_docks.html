@@ -1,0 +1,85 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8" /><link rel="stylesheet" type="text/css" href="https://unpkg.com/@davidsouther/jiffies-css" /><style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --font-family-base: Poppins;
+  --font-family-header: Orbitron;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body > main {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.cover {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (prefers-color-scheme: dark) {
+  a, [role=link] {
+    --text-color: #BBBBFF;
+  }
+}
+
+nav .breadcrumbs li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+nav .breadcrumbs li::marker {
+  content: '→';
+}
+
+:is(body,#body,#root)>aside:has(>nav) {
+  width: min-content;
+}
+
+:is(body,#body,#root)>aside>nav {
+  max-height: 90vh;
+  overscroll-behavior: contain;
+  overflow: scroll;
+}
+
+aside nav ul li a {
+  white-space: nowrap;
+}
+
+.table-of-contents {
+  container-type: size;
+
+  & > ol {
+    columns: var(--text-columns);
+  }
+}
+
+.table-of-contents {
+  --text-columns: 1;
+}
+
+@container (width > 600px) {
+  .table-of-contents > ol {
+    --text-columns: 3;
+  }
+}
+
+@container (width > 400px) {
+  .table-of-contents > ol {
+    --text-columns: 2;
+  }
+}
+
+</style></head><body><header class="fluid"><nav><!-- Cover --><h1><a href="/">Medina-99</a></h1><h2 /><h3>By David Souther</h3></nav></header><main class"><article id="10_setting_20_docks"><header><nav><h1>Docks</h1><ol class="breadcrumbs"><li><a href="#10_setting">Setting</a></li><li><a href="#10_setting_20_docks">Docks</a></li></ol><a href="#">Top</a></nav></header><main><p>The two main docks of the Grell-I-10 Transfer Station serve as its lifelines, allowing a seamless flux of traffic from across the universe. Eternally open to the inky expanse of space, these docks are an avatar of constant activity and regimented chaos. Both docks are covered by massive translucent force-fields, allowing ships in and out while maintaining the station&#39;s inner atmosphere – a marvel of engineering and quantum physics.</p>
+<p>Ship Dock Alpha, the so-called &quot;Gateway of Grell,&quot; is the primary dock, welcoming a staggering array of vehicles, from tiny personal craft to gargantuan haulers. Massive neon guidance lights line its approach, drawing pilots in like moths to a flame. Further in, the dock becomes less glamorous and more industrial. Deeper into the cavernous dock, large, mechanized arms swing in co-ordinated dance, transferring cargo and passengers from ships to the station and vice versa. The air here is filled with a symphony of mechanical noises, beeps and the occasional shout in countless languages.</p>
+<p>Ship Dock Beta, or &quot;The Void&#39;s Vestibule,&quot; is secondary but equally strategically important. This dock is mostly dedicated to maintenance and repair of both station modules and visiting vessels. Dry-docks are filled with various ship types, scaffolding, and teams of engineers in spacesuits, wielding plasma torches surrounded by a haze of metal particles. The sounds here are gruff, metallic, and hot. There&#39;s a sense of dedication and sweat of honest labor.</p>
+<p>Near the center of Alpha, you&#39;ll find Dock Zero, a small, pressurized dock used for high-priority, sensitive departures, and arrivals. Dock Zero, outfitted with additional security protocols, is where diplomats, high-ranking military officers, and important clients choose to dock. The atmosphere is subdued, echoes of hushed conversations bounce off the gleaming, polished metal walls.</p>
+<p>Across the station in Dock Beta, the Greenhouse Dock has carved a niche. Instead of hosting ships or freight, the Greenhouse Dock serves as an experimental botany lab where new plants brought back from other worlds are studied and cultivated. Unearthly flora fills the air with strange, exotic scents. This dock, always bathed in an artificial but natural-feeling sunlight, provides a sense of peace and serenity amidst the industrial bustle of the station.</p></main></article></main><footer class="fluid"><nav>©2023 David Souther</nav></footer><script src="https://unpkg.com/@davidsouther/jiffies-css/accessibility.js"></script></body></html>

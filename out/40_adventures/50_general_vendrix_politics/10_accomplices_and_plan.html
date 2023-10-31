@@ -1,0 +1,92 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8" /><link rel="stylesheet" type="text/css" href="https://unpkg.com/@davidsouther/jiffies-css" /><style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --font-family-base: Poppins;
+  --font-family-header: Orbitron;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body > main {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.cover {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (prefers-color-scheme: dark) {
+  a, [role=link] {
+    --text-color: #BBBBFF;
+  }
+}
+
+nav .breadcrumbs li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+nav .breadcrumbs li::marker {
+  content: '→';
+}
+
+:is(body,#body,#root)>aside:has(>nav) {
+  width: min-content;
+}
+
+:is(body,#body,#root)>aside>nav {
+  max-height: 90vh;
+  overscroll-behavior: contain;
+  overflow: scroll;
+}
+
+aside nav ul li a {
+  white-space: nowrap;
+}
+
+.table-of-contents {
+  container-type: size;
+
+  & > ol {
+    columns: var(--text-columns);
+  }
+}
+
+.table-of-contents {
+  --text-columns: 1;
+}
+
+@container (width > 600px) {
+  .table-of-contents > ol {
+    --text-columns: 3;
+  }
+}
+
+@container (width > 400px) {
+  .table-of-contents > ol {
+    --text-columns: 2;
+  }
+}
+
+</style></head><body><header class="fluid"><nav><!-- Cover --><h1><a href="/">Medina-99</a></h1><h2 /><h3>By David Souther</h3></nav></header><main class"><article id="40_adventures_50_general_vendrix_politics_10_accomplices_and_plan"><header><nav><h1>Accomplices And Plan</h1><ol class="breadcrumbs"><li><a href="#40_adventures">Adventures</a></li><li><a href="#40_adventures_50_general_vendrix_politics">Grell-I-10 Conspiracy: Shadows of the Medina Ring</a></li><li><a href="#40_adventures_50_general_vendrix_politics_10_accomplices_and_plan">Accomplices And Plan</a></li></ol><a href="#">Top</a></nav></header><main><p><strong>Accomplices:</strong></p>
+<ol>
+<li><p><strong>Captain Tessier Bray</strong> (Level - Captain, Attributes - +2 Skill (Management), +1 Cool, Aspects - &quot;Unquestioning Loyalty&quot; and &quot;Deceptive Facade&quot;)- Tessier is Vendrix&#39;s second-in-command, managing her illegal transactions and operations while maintaining plausible deniability for himself.</p>
+</li>
+<li><p><strong>Lieutenant Korin Zef</strong> (Level - Lieutenant, Attributes - +1 Smarts, +1 Skill (Technology), Aspects - &quot;Sneaky Tech Expert&quot;)- Zef is responsible for hacking into systems, erasing digital footprints and misdirecting anyone investigating Vendrix or her dealings.</p>
+</li>
+<li><p><strong>Sergeant Gen Bova</strong> (Level - Sergeant, Attributes - +1 Toughness, Aspects - &quot;Unknowingly Conflicted&quot;)- Gen is an enforcer in Xaela&#39;s team, often made to act against his conscience without realizing the full extent of his involvement in the Corruption.</p>
+</li>
+</ol>
+<p><strong>The Plan:</strong></p>
+<p>Xaela is using her power to channel and manipulate the finances of the Grell-I-10 Transfer Station to their advantage. Through Bray, she has made various shady deals, bribing officials, contractors, and businesses into inflating prices or cutting corners, and pocketing the difference. Zef is key to all digital aspects, responsible for intercepting, modifying, or fabricating digital records. Meanwhile, Gen is used for strong-arming those who won&#39;t cooperate or suspect foul play.</p>
+<p>The villain&#39;s primary plan is to continue these operations indefinitely, accumulating wealth and influence. She also seeks to abuse her authority to extend her control over more of the station&#39;s operations. As a secondary goal, she is working to steadily erode the checks and balances that might expose her. Ultimately, she aims to rule over the transfer station as her own personal fiefdom. However, the clock is ticking as whispers and suspicions of her corruption are beginning to spread among the station&#39;s inhabitants and law enforcement officials.</p></main></article></main><footer class="fluid"><nav>©2023 David Souther</nav></footer><script src="https://unpkg.com/@davidsouther/jiffies-css/accessibility.js"></script></body></html>

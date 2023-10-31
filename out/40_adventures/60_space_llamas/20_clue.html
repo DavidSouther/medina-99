@@ -1,0 +1,83 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8" /><link rel="stylesheet" type="text/css" href="https://unpkg.com/@davidsouther/jiffies-css" /><style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --font-family-base: Poppins;
+  --font-family-header: Orbitron;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body > main {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.cover {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (prefers-color-scheme: dark) {
+  a, [role=link] {
+    --text-color: #BBBBFF;
+  }
+}
+
+nav .breadcrumbs li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+nav .breadcrumbs li::marker {
+  content: '→';
+}
+
+:is(body,#body,#root)>aside:has(>nav) {
+  width: min-content;
+}
+
+:is(body,#body,#root)>aside>nav {
+  max-height: 90vh;
+  overscroll-behavior: contain;
+  overflow: scroll;
+}
+
+aside nav ul li a {
+  white-space: nowrap;
+}
+
+.table-of-contents {
+  container-type: size;
+
+  & > ol {
+    columns: var(--text-columns);
+  }
+}
+
+.table-of-contents {
+  --text-columns: 1;
+}
+
+@container (width > 600px) {
+  .table-of-contents > ol {
+    --text-columns: 3;
+  }
+}
+
+@container (width > 400px) {
+  .table-of-contents > ol {
+    --text-columns: 2;
+  }
+}
+
+</style></head><body><header class="fluid"><nav><!-- Cover --><h1><a href="/">Medina-99</a></h1><h2 /><h3>By David Souther</h3></nav></header><main class"><article id="40_adventures_60_space_llamas_20_clue"><header><nav><h1>Clue</h1><ol class="breadcrumbs"><li><a href="#40_adventures">Adventures</a></li><li><a href="#40_adventures_60_space_llamas">Space Llamas</a></li><li><a href="#40_adventures_60_space_llamas_20_clue">Clue</a></li></ol><a href="#">Top</a></nav></header><main><p>A shipment of llama wool was mistakenly delivered to the local Medina-99 Sci-Fi and Comic Book club instead of the infamous knitting grannies. The comic book club was expecting a shipment of replica superhero capes for their annual Cos-Medina-Con.</p>
+<p>The llama wool was encased in a special protective cover for the transport, clearly labeled &#39;Space Llama Wool - Handle With Care&#39;. This anomaly piqued the interest of our hero detectives, who were notified by the Comic Book Club&#39;s president, a non-combatant NPC named Gabby Geek who has the aspect &quot;Has an Eye For Detail and An Ear For Trouble&quot;.</p>
+<p>This mistake provided our detectives with the possibility of a connection between the prized space llamas of space Machu Picchu and Medina-99, something not ordinarily seen in suburban space life. As a result, the detectives will be inclined to manage this situation and will begin conducting investigations and analyzing the links.</p></main></article></main><footer class="fluid"><nav>©2023 David Souther</nav></footer><script src="https://unpkg.com/@davidsouther/jiffies-css/accessibility.js"></script></body></html>

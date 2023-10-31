@@ -1,0 +1,90 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8" /><link rel="stylesheet" type="text/css" href="https://unpkg.com/@davidsouther/jiffies-css" /><style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --font-family-base: Poppins;
+  --font-family-header: Orbitron;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body > main {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.cover {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (prefers-color-scheme: dark) {
+  a, [role=link] {
+    --text-color: #BBBBFF;
+  }
+}
+
+nav .breadcrumbs li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+nav .breadcrumbs li::marker {
+  content: '→';
+}
+
+:is(body,#body,#root)>aside:has(>nav) {
+  width: min-content;
+}
+
+:is(body,#body,#root)>aside>nav {
+  max-height: 90vh;
+  overscroll-behavior: contain;
+  overflow: scroll;
+}
+
+aside nav ul li a {
+  white-space: nowrap;
+}
+
+.table-of-contents {
+  container-type: size;
+
+  & > ol {
+    columns: var(--text-columns);
+  }
+}
+
+.table-of-contents {
+  --text-columns: 1;
+}
+
+@container (width > 600px) {
+  .table-of-contents > ol {
+    --text-columns: 3;
+  }
+}
+
+@container (width > 400px) {
+  .table-of-contents > ol {
+    --text-columns: 2;
+  }
+}
+
+</style></head><body><header class="fluid"><nav><!-- Cover --><h1><a href="/">Medina-99</a></h1><h2 /><h3>By David Souther</h3></nav></header><main class"><article id="40_adventures_12_sergeant_graxx_smuggler_10_accomplices_and_plan"><header><nav><h1>Accomplices And Plan</h1><ol class="breadcrumbs"><li><a href="#40_adventures">Adventures</a></li><li><a href="#40_adventures_12_sergeant_graxx_smuggler">Sergeant Graxx Smuggler</a></li><li><a href="#40_adventures_12_sergeant_graxx_smuggler_10_accomplices_and_plan">Accomplices And Plan</a></li></ol><a href="#">Top</a></nav></header><main><p><strong>Accomplice 1: Lieutenant Yarla</strong> (Level - Lieutenant, Attributes - +1 Smarts, +1 Technology, Aspect - &quot;Slick Information Broker&quot;)
+Yarla is a clever and cunning alien who operates as the main information broker for Graxx&#39;s operations. They are experts in using interstellar communications technology and encrypted data to covertly pass information and ensure the safe delivery of smuggled substances.</p>
+<p><strong>Accomplice 2: Captain Zukor</strong> (Level - Captain, Attributes - +2 Skill (Investigation), +1 Smarts, Aspects - &quot;Dogged Detective, Unwitting Pawn&quot;)
+Zukor is a dedicated detective with the Medina-99 police department who&#39;s been manipulated by Graxx and Yarla into hinderance. Zukor&#39;s dedication makes him an ideal pawn. His critical investigations sometimes throw off the cop&#39;s trails just when they start getting too close.</p>
+<p><strong>Accomplice 3: General Klynn</strong> (Level - General, Attributes -+2 Grit, +2 Cool, Aspects - &quot;Ice Cold Enforcer, Ruthless Strategist&quot;)
+Klynn is a powerful and ruthless strategist. He ensures that Graxx&#39;s plans are implemented smoothly and take care of any major obstacles that come their way. He also works to ensure that Graxx&#39;s influence continues to spread through fear and intimidation.</p>
+<p><strong>The Plan</strong>
+The plan is simple yet effective. Graxx controls the supply of illegal substances while Yarla coordinates the smuggling and communication operations. All the dealings are disguised under legitimate trade or shipping endeavours making it difficult for anyone to discern the true nature of their operations.</p>
+<p>Captain Zukor, though unintentionally, plays a crucial role in this plan. Any time the detectives start sniffing around, Zukor&#39;s hunches and investigations manage to steer them away, often attributing the increase in drug trade to local gangs or rival cartels.</p>
+<p>General Klynn serves as the enforcer and strategist, ensuring that Graxx&#39;s plans are carried out and that their expanding influence is kept secure through a mix of covert threats and force, maintaining the balance of fear that keeps the operation hidden and profitable.</p></main></article></main><footer class="fluid"><nav>©2023 David Souther</nav></footer><script src="https://unpkg.com/@davidsouther/jiffies-css/accessibility.js"></script></body></html>

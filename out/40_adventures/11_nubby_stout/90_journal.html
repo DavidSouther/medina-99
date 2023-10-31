@@ -1,0 +1,88 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8" /><link rel="stylesheet" type="text/css" href="https://unpkg.com/@davidsouther/jiffies-css" /><style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --font-family-base: Poppins;
+  --font-family-header: Orbitron;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body > main {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.cover {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (prefers-color-scheme: dark) {
+  a, [role=link] {
+    --text-color: #BBBBFF;
+  }
+}
+
+nav .breadcrumbs li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+nav .breadcrumbs li::marker {
+  content: '→';
+}
+
+:is(body,#body,#root)>aside:has(>nav) {
+  width: min-content;
+}
+
+:is(body,#body,#root)>aside>nav {
+  max-height: 90vh;
+  overscroll-behavior: contain;
+  overflow: scroll;
+}
+
+aside nav ul li a {
+  white-space: nowrap;
+}
+
+.table-of-contents {
+  container-type: size;
+
+  & > ol {
+    columns: var(--text-columns);
+  }
+}
+
+.table-of-contents {
+  --text-columns: 1;
+}
+
+@container (width > 600px) {
+  .table-of-contents > ol {
+    --text-columns: 3;
+  }
+}
+
+@container (width > 400px) {
+  .table-of-contents > ol {
+    --text-columns: 2;
+  }
+}
+
+</style></head><body><header class="fluid"><nav><!-- Cover --><h1><a href="/">Medina-99</a></h1><h2 /><h3>By David Souther</h3></nav></header><main class"><article id="40_adventures_11_nubby_stout_90_journal"><header><nav><h1>Journal</h1><ol class="breadcrumbs"><li><a href="#40_adventures">Adventures</a></li><li><a href="#40_adventures_11_nubby_stout">Nubby Stout</a></li><li><a href="#40_adventures_11_nubby_stout_90_journal">Journal</a></li></ol><a href="#">Top</a></nav></header><main><p>The game session began in the comfortable confines of the Nubby Stout, a well-loved local hangout where our intrepid detectives enjoyed a break from their work. That ended abruptly when Oliver, the proprietor, announced that a technical malady had plagued his famed Nubby Stout, morphing it into repulsive Space Natty Light.</p>
+<p>Seeing the horror around them, Rob, Gena, and Annie felt compelled to act. Annie, well-versed in the world of technology, ran a quick scan and identified an anomalous Electromagnetic field radiating from behind the bar. The source? A hidden sealed door. Employing Avery&#39;s lock-picking skills, the detectives managed to open the compartment and discovered an antiquated VHS player emitting a strange signal.</p>
+<p>While dealing with the sudden curiosity, they inadvertently drew the attention of beat cops from the other precinct. The tension was expertly diffused by Rob, who was no stranger to the delicate dance of cop to cop diplomacy.</p>
+<p>Deep into the investigation, it was discovered that the EM waves coincided with the signature of a missing employee, Carl. Worried, they lodged a request with the maintenance department, who, in a classic bureaucratic manner, promised service in about two weeks.</p>
+<p>Meanwhile, the detectives got a hot tip—there was a pop-up disco event from the far travelers, renowned for their exotic earthly drinks. Rob had a history with the far travelers and managed to strike a conversation with the group who had docked up in the upscale Beta docks. Even amidst the music and dance, the detectives didn&#39;t lose sight of their mission, uncovering the valuable truth that the far travelers sourced their brews from Olympus Mons on Mars.</p>
+<p>The disco night also provided an unexpected breakthrough—a kid revealed the purpose of the mysterious VHS player—it was an old cell phone. This seemed to be the missing piece of the puzzle. But just as things seemed to fall in line, the space Natty Light debacle replayed, leading them right back to the start.</p>
+<p>This time though, the detectives had a lead. The signal and Olympus Mons&#39; connection led them to Deej&#39;s, a well-known eatery in the town. As the events unfolded, the detectives bravely rallied to catch the culprits in action. Deej’s high-tech security system incapacitated the intruding Rodrac and Rolf, and the detectives successfully made their arrest.</p>
+<p>In one fell swoop, the sinister plot to steal Olympus Mons&#39; sausages and corrupt Nubby Stout was foiled. Amidst the ensuing chaos, Gena found time to give a good look to Deej&#39;s stocked bar appreciating the wide array of drink choices—an endearing quality for a space station. The victory was well-earned, and the detectives, having saved the Nubby Stout from an unfortunate fate, settled back into the bar, each nursing their respective drinks, ready to face the next oddity Medina-99 had in store.</p></main></article></main><footer class="fluid"><nav>©2023 David Souther</nav></footer><script src="https://unpkg.com/@davidsouther/jiffies-css/accessibility.js"></script></body></html>

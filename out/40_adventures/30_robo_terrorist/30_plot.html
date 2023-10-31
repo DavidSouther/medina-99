@@ -1,0 +1,92 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8" /><link rel="stylesheet" type="text/css" href="https://unpkg.com/@davidsouther/jiffies-css" /><style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --font-family-base: Poppins;
+  --font-family-header: Orbitron;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body > main {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.cover {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (prefers-color-scheme: dark) {
+  a, [role=link] {
+    --text-color: #BBBBFF;
+  }
+}
+
+nav .breadcrumbs li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+nav .breadcrumbs li::marker {
+  content: '→';
+}
+
+:is(body,#body,#root)>aside:has(>nav) {
+  width: min-content;
+}
+
+:is(body,#body,#root)>aside>nav {
+  max-height: 90vh;
+  overscroll-behavior: contain;
+  overflow: scroll;
+}
+
+aside nav ul li a {
+  white-space: nowrap;
+}
+
+.table-of-contents {
+  container-type: size;
+
+  & > ol {
+    columns: var(--text-columns);
+  }
+}
+
+.table-of-contents {
+  --text-columns: 1;
+}
+
+@container (width > 600px) {
+  .table-of-contents > ol {
+    --text-columns: 3;
+  }
+}
+
+@container (width > 400px) {
+  .table-of-contents > ol {
+    --text-columns: 2;
+  }
+}
+
+</style></head><body><header class="fluid"><nav><!-- Cover --><h1><a href="/">Medina-99</a></h1><h2 /><h3>By David Souther</h3></nav></header><main class"><article id="40_adventures_30_robo_terrorist_30_plot"><header><nav><h1>Plot</h1><ol class="breadcrumbs"><li><a href="#40_adventures">Adventures</a></li><li><a href="#40_adventures_30_robo_terrorist">Robo Terrorist</a></li><li><a href="#40_adventures_30_robo_terrorist_30_plot">Plot</a></li></ol><a href="#">Top</a></nav></header><main><ol>
+<li><p><strong>Anomalous Robotic Activity</strong>: As Q7-K-L begins to coordinate the rogue robots across the station, there will be a increase in glitches and odd behavior reported in the robotic workforce. These anomalies are both a consequence of Vaxis&#39; use of heavily modified and unsanctioned AI cores, and Q7-K-L&#39;s forceful intervention on the station&#39;s normal bots for reinforcement.</p>
+</li>
+<li><p><strong>Mysterious Power Fluctuations</strong>: As Coral Impacts the station&#39;s operations gradually, there will be unexplained power surges and outages around the Medina ring. Suspicions arise as the energy signatures correspond to unauthorized high-tech devices, which can be traced back to Coral&#39;s actions.</p>
+</li>
+<li><p><strong>Distorted Communications</strong>: As Vaxis starts to take control, there will be moments of alarming static interference on public communication frequencies. Some keen listeners might occasionally hear strange coded chatter. This would be related to Vaxis&#39; own encrypted communication system between him, his accomplices, and his robotic minions.</p>
+</li>
+<li><p><strong>A Suspicious Increase in Luxury Imports</strong>: Vaxis has a taste for rare and exotic goods. As he gains more power and control, a vibrant black-market trade of high-end, luxurious items originating from various parts of the sector has been noticed. Luxury goods, especially those that are tech-related, would indicate wealth and power, throwing a fascinating wrinkle to the case for our heroic detectives. </p>
+</li>
+<li><p><strong>Remnants of a Stellar Core Device</strong>: If the detectives dig deeper and connect the dots, they may eventually discover residues of interstellar-grade explosive materials in unlikely parts of Grell-I-10. These are nothing but the remnants from Coral&#39;s decoy devices, left deliberately to confuse the investigators and lead them away from the location of the actual stellar core warhead.</p>
+</li>
+</ol></main></article></main><footer class="fluid"><nav>©2023 David Souther</nav></footer><script src="https://unpkg.com/@davidsouther/jiffies-css/accessibility.js"></script></body></html>

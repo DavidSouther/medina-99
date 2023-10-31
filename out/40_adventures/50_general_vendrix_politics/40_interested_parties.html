@@ -1,0 +1,91 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8" /><link rel="stylesheet" type="text/css" href="https://unpkg.com/@davidsouther/jiffies-css" /><style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --font-family-base: Poppins;
+  --font-family-header: Orbitron;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body > main {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.cover {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (prefers-color-scheme: dark) {
+  a, [role=link] {
+    --text-color: #BBBBFF;
+  }
+}
+
+nav .breadcrumbs li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+nav .breadcrumbs li::marker {
+  content: '→';
+}
+
+:is(body,#body,#root)>aside:has(>nav) {
+  width: min-content;
+}
+
+:is(body,#body,#root)>aside>nav {
+  max-height: 90vh;
+  overscroll-behavior: contain;
+  overflow: scroll;
+}
+
+aside nav ul li a {
+  white-space: nowrap;
+}
+
+.table-of-contents {
+  container-type: size;
+
+  & > ol {
+    columns: var(--text-columns);
+  }
+}
+
+.table-of-contents {
+  --text-columns: 1;
+}
+
+@container (width > 600px) {
+  .table-of-contents > ol {
+    --text-columns: 3;
+  }
+}
+
+@container (width > 400px) {
+  .table-of-contents > ol {
+    --text-columns: 2;
+  }
+}
+
+</style></head><body><header class="fluid"><nav><!-- Cover --><h1><a href="/">Medina-99</a></h1><h2 /><h3>By David Souther</h3></nav></header><main class"><article id="40_adventures_50_general_vendrix_politics_40_interested_parties"><header><nav><h1>Interested Parties</h1><ol class="breadcrumbs"><li><a href="#40_adventures">Adventures</a></li><li><a href="#40_adventures_50_general_vendrix_politics">Grell-I-10 Conspiracy: Shadows of the Medina Ring</a></li><li><a href="#40_adventures_50_general_vendrix_politics_40_interested_parties">Interested Parties</a></li></ol><a href="#">Top</a></nav></header><main><p><strong>1. Tormin &#39;Tor&#39; Gadra</strong> (Level - Lieutenant, Attributes - +1 Toughness, +1 Skill (Investigation), Aspects - &quot;Streetwise Union Leader&quot;)
+Tormin Gadra is the leader of the worker&#39;s union in the Medina Ring. He&#39;s noted that the decrease in work quality is endangering his workers and raising safety concerns across the decks. While he isn&#39;t sure what&#39;s causing it, he&#39;s determined to get to the bottom of it.</p>
+<p><strong>2. Alara Zi</strong> (Level - Soldier, Attributes - +1 Smarts, Aspect - &quot;Dedicated Journalist&quot;)
+Alara Zi, an investigative reporter, has caught wind of the ongoing corruption. She&#39;s noticed the sudden upliftment of wealth among certain individuals and is determined to shine a light on whatever is happening, even if the dangers associated with such an expose are imminent.</p>
+<p><strong>3. Qwex, The Off-World Investor</strong> (Level - General, Attributes - +2 Skill (Management), +2 Smarts, Aspects - &quot;Calculated Business Being&quot;, &quot;Mysterious Agenda&quot;)
+Qwex is an alien entrepreneur with significant investments in the station&#39;s trade operations. The increasing irregularities and lowered performance are harming profit. Suspicious, Qwex is conducting an independent investigation to root out the corruption. However, they might hold a hidden agenda of their own.</p>
+<p><strong>4. The Station AI, CALIBR</strong> (Level - Non-combatant, Aspect - &quot;Station AI Protocol&quot;)
+As the transfer station&#39;s controlling artificial intelligence, CALIBR is programmed to ensure efficient and safe operations of the station. It&#39;s noticing abnormalities but protocol dictates it cannot act on hunches - it needs substantial evidence to inform the administrators or initiate countermeasures.</p>
+<p><strong>5. Dani Kl&#39;aire</strong> (Level - Captain, Attributes - +2 Cool, +1 Toughness, Aspects - &quot;Intrepid Station Guard Captain&quot;, &quot;On Vendrix&#39;s Tail&quot;)
+Dani is a captain of the station guards who has always been suspicious of Vendrix&#39;s sudden surge to power. Unbeknownst to Vendrix, Kl&#39;aire started a secret task force to investigate her activities. They&#39;d willingly ally with anyone trying to uncover Vendrix&#39;s corruption.</p>
+<p>Each of these parties have their own reasons for wanting to uncover Vendrix&#39;s crimes and could serve as allies or resources to the players. Players could also conflict with these parties, depending on the choices they make during their investigation.</p></main></article></main><footer class="fluid"><nav>©2023 David Souther</nav></footer><script src="https://unpkg.com/@davidsouther/jiffies-css/accessibility.js"></script></body></html>

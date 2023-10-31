@@ -1,0 +1,85 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8" /><link rel="stylesheet" type="text/css" href="https://unpkg.com/@davidsouther/jiffies-css" /><style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --font-family-base: Poppins;
+  --font-family-header: Orbitron;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body > main {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.cover {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (prefers-color-scheme: dark) {
+  a, [role=link] {
+    --text-color: #BBBBFF;
+  }
+}
+
+nav .breadcrumbs li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+nav .breadcrumbs li::marker {
+  content: '→';
+}
+
+:is(body,#body,#root)>aside:has(>nav) {
+  width: min-content;
+}
+
+:is(body,#body,#root)>aside>nav {
+  max-height: 90vh;
+  overscroll-behavior: contain;
+  overflow: scroll;
+}
+
+aside nav ul li a {
+  white-space: nowrap;
+}
+
+.table-of-contents {
+  container-type: size;
+
+  & > ol {
+    columns: var(--text-columns);
+  }
+}
+
+.table-of-contents {
+  --text-columns: 1;
+}
+
+@container (width > 600px) {
+  .table-of-contents > ol {
+    --text-columns: 3;
+  }
+}
+
+@container (width > 400px) {
+  .table-of-contents > ol {
+    --text-columns: 2;
+  }
+}
+
+</style></head><body><header class="fluid"><nav><!-- Cover --><h1><a href="/">Medina-99</a></h1><h2 /><h3>By David Souther</h3></nav></header><main class"><article id="10_setting_10_overview"><header><nav><h1>Overview</h1><ol class="breadcrumbs"><li><a href="#10_setting">Setting</a></li><li><a href="#10_setting_10_overview">Overview</a></li></ol><a href="#">Top</a></nav></header><main><p>The Grell-I-10 Transfer Station, which orbits the sun roughly 10 degrees ahead of Earth, is an intricate complex built for interstellar transfers. Its location allows it to be a hub for deep-space vessels, which transition their goods and passengers to in-system torch ships there. </p>
+<p>The Station itself is akin to a small city in space, housing around a half-million full-time residents, with a revolving door of tens of thousands transient passersby. Its sizeable structure makes it possible to accommodate any class of vehicle. Two main docks, open to space, lie at the ends of a central cylindrical zero-gravity section. These well-designed docking points consist of both quick access docks on the exterior and numerous dry-docks and pressurized docks on the inside of the cylinder. </p>
+<p>Connecting these two docks is a narrow, yet significant, transport and mechanical system. A heavy-duty fusion reactor and a water processing complex sprout out from the center of this system. At the base of each elevator arm in this region, one can find a zero-g aquaponics &amp; hydroponics food growth section essential for the station&#39;s sustenance. </p>
+<p>Bordering the central section are two counter-rotating habitation rings. These segments form the residential areas of the station. Each ring, teeming with life and activity, links to the central shaft via three narrow elevator arms. Throughout the station, pockets of life thrive away from earth amidst cold, infinite space, each corner bustling with its distinctive routine, making the station a sprawling cosmos of its own. </p>
+<p>The tone of life here is mostly light-hearted, especially in the Medina ring, which is quite suburban in character. The inhabitants, including our detective heroes, experience moments of hilarity, danger, and everything in between as they navigate their lives in this bustling station.</p></main></article></main><footer class="fluid"><nav>©2023 David Souther</nav></footer><script src="https://unpkg.com/@davidsouther/jiffies-css/accessibility.js"></script></body></html>

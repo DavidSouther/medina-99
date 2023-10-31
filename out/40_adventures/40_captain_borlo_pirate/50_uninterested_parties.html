@@ -1,0 +1,90 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8" /><link rel="stylesheet" type="text/css" href="https://unpkg.com/@davidsouther/jiffies-css" /><style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --font-family-base: Poppins;
+  --font-family-header: Orbitron;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body > main {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.cover {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (prefers-color-scheme: dark) {
+  a, [role=link] {
+    --text-color: #BBBBFF;
+  }
+}
+
+nav .breadcrumbs li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+nav .breadcrumbs li::marker {
+  content: '→';
+}
+
+:is(body,#body,#root)>aside:has(>nav) {
+  width: min-content;
+}
+
+:is(body,#body,#root)>aside>nav {
+  max-height: 90vh;
+  overscroll-behavior: contain;
+  overflow: scroll;
+}
+
+aside nav ul li a {
+  white-space: nowrap;
+}
+
+.table-of-contents {
+  container-type: size;
+
+  & > ol {
+    columns: var(--text-columns);
+  }
+}
+
+.table-of-contents {
+  --text-columns: 1;
+}
+
+@container (width > 600px) {
+  .table-of-contents > ol {
+    --text-columns: 3;
+  }
+}
+
+@container (width > 400px) {
+  .table-of-contents > ol {
+    --text-columns: 2;
+  }
+}
+
+</style></head><body><header class="fluid"><nav><!-- Cover --><h1><a href="/">Medina-99</a></h1><h2 /><h3>By David Souther</h3></nav></header><main class"><article id="40_adventures_40_captain_borlo_pirate_50_uninterested_parties"><header><nav><h1>Uninterested Parties</h1><ol class="breadcrumbs"><li><a href="#40_adventures">Adventures</a></li><li><a href="#40_adventures_40_captain_borlo_pirate">Captain Borlo Pirate</a></li><li><a href="#40_adventures_40_captain_borlo_pirate_50_uninterested_parties">Uninterested Parties</a></li></ol><a href="#">Top</a></nav></header><main><p><strong>1. Harken Rimor, the Informant</strong> (Level - Non-combatant, Aspect - &quot;Spaceport Gossipmonger&quot;)</p>
+<p>As a spaceport worker who manages one of the loading docks, he interacts with various people, from spacefarers to transport pilots. As an avid collector of rumors and gossips, Harken knows more than meets the eye. Although usually disinterested in disputes and skirmishes, his vast web of space gossip might provide the keys to unforeseen details and leads.    </p>
+<p><strong>2. Plix, the Alien Tech Merchant</strong> (Level - Non-combatant, Aspect - &quot;Genius Gadgeteer&quot;)</p>
+<p>As an interstellar trader who visits Medina-99 from time to time selling his wares, Plix is a technical genius from the alien race of Pegasi. His knowledge in highly advanced technology, particularly warp tech, could help understand the warp jamming device used by the pirates. Although usually only focused on making a profit, with the right incentive or a chance to examine rare tech, he could be persuaded to help.</p>
+<p><strong>3. The Ikarians</strong> (Level - Varies, Aspect - &quot;Isolationist Alien Society&quot;)</p>
+<p>The Ikarians are an advanced and peaceful alien society neighboring the Grell-I-10 Transfer Station region. Although they usually remain uninterested in the affairs of other societies and races, their superior surveillance tech and extensive knowledge of galaxy&#39;s uncharted regions could be invaluable. Convincing them could pose a delicate diplomatic challenge, requiring respectful and skillful negotiation.</p>
+<p><strong>4. Eve &quot;Ether&quot; Catton</strong> (Level - Sergeant, Attributes - +1 Smarts, Aspect - &quot;Retired Interstellar Hacker&quot;)</p>
+<p>Eve, an ex-hacker turned ethical cyber security consultant, knows her way around any digital system or network you throw at her. If the hacking signature left by Mira could be obtained, Eve might be able to reverse-engineer the breach and provide valuable information about the pirates. She prefers a quiet life now, but a worthy cause or interesting challenge could bring her out of her digital solitude. </p>
+<p><strong>5. Veran Guild of Miners - Local Chapter</strong> (Level - Varies, Aspect - &quot;Hard-Working Space Miners&quot;)</p>
+<p>As workers on the frontline of space resource extraction, these miners could serve as the &quot;eyes and ears&quot; for the team, alerting them of unusual activities in the asteroid fields where they work, where the pirate&#39;s base might be hiding. Being often overlooked, the miners aren&#39;t usually involved in crime-stopping affairs, but a cunning player could highlight the common threat the pirates pose to their operations and thereby solicit their cooperation.</p></main></article></main><footer class="fluid"><nav>©2023 David Souther</nav></footer><script src="https://unpkg.com/@davidsouther/jiffies-css/accessibility.js"></script></body></html>

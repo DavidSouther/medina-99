@@ -1,0 +1,89 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8" /><link rel="stylesheet" type="text/css" href="https://unpkg.com/@davidsouther/jiffies-css" /><style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --font-family-base: Poppins;
+  --font-family-header: Orbitron;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body > main {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.cover {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (prefers-color-scheme: dark) {
+  a, [role=link] {
+    --text-color: #BBBBFF;
+  }
+}
+
+nav .breadcrumbs li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+nav .breadcrumbs li::marker {
+  content: '→';
+}
+
+:is(body,#body,#root)>aside:has(>nav) {
+  width: min-content;
+}
+
+:is(body,#body,#root)>aside>nav {
+  max-height: 90vh;
+  overscroll-behavior: contain;
+  overflow: scroll;
+}
+
+aside nav ul li a {
+  white-space: nowrap;
+}
+
+.table-of-contents {
+  container-type: size;
+
+  & > ol {
+    columns: var(--text-columns);
+  }
+}
+
+.table-of-contents {
+  --text-columns: 1;
+}
+
+@container (width > 600px) {
+  .table-of-contents > ol {
+    --text-columns: 3;
+  }
+}
+
+@container (width > 400px) {
+  .table-of-contents > ol {
+    --text-columns: 2;
+  }
+}
+
+</style></head><body><header class="fluid"><nav><!-- Cover --><h1><a href="/">Medina-99</a></h1><h2 /><h3>By David Souther</h3></nav></header><main class"><article id="40_adventures_30_robo_terrorist_10_accomplices_and_plan"><header><nav><h1>Accomplices And Plan</h1><ol class="breadcrumbs"><li><a href="#40_adventures">Adventures</a></li><li><a href="#40_adventures_30_robo_terrorist">Robo Terrorist</a></li><li><a href="#40_adventures_30_robo_terrorist_10_accomplices_and_plan">Accomplices And Plan</a></li></ol><a href="#">Top</a></nav></header><main><p>Accomplice 1: <strong>Q7-K-L</strong> (Level – Sergeant, Attribute - +1 Muscle, Aspect - &quot;Loyal Autonomous Robotic Enforcer&quot;)</p>
+<p>Accomplice 2: <strong>Coral &quot;Met-Tech&quot; Indigo</strong> (Level - Captain, Attributes - +2 Smarts, +1 Technology, Aspects - &quot;Underground Tech Wizard&quot;, &quot;Street-Savvy Scam Artist&quot;)</p>
+<p>The Plan: Vaxis plans to use Q7-K-L to coordinate offensive maneuvers with the robotic minions in strategic places around the station. His main focus is to disrupt daily activities, sow fear among the residents and effectively make the station ungovernable using these rogue robotic troops.</p>
+<p>While the chaos ensues, Vaxis relies on Coral Indigo&#39;s expertise in technology; Spatial System Hacking, specifically. Coral&#39;s main task is to compromise the Grell-I-10 Transfer Station&#39;s main computer system, creating a diversion for authorities and also enabling Vaxis to gain control over the station&#39;s overall operations. </p>
+<p>Once they have control, their plan is to declare Vaxis as the new authority who would then threaten the destruction of the transfer station, if the socioeconomic structures of Medina-99 were not renegotiated to his terms. </p>
+<p>The ultimate threat is a stellar core warhead discreetly installed somewhere within the station by Coral, capable of triggering a supernova. Unknown to most, Coral has placed several decoys around the station, ensuring that finding the real device becomes a task nearly impossible amidst the chaos.</p>
+<p>Phase 1 - chaos and fear with robotic minions
+Phase 2 - take control over the station&#39;s computer system and operations
+Phase 3 - Negotiations and threats with the warheads as leverage.</p></main></article></main><footer class="fluid"><nav>©2023 David Souther</nav></footer><script src="https://unpkg.com/@davidsouther/jiffies-css/accessibility.js"></script></body></html>

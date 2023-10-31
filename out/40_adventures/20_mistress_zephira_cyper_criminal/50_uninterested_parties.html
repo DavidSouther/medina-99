@@ -1,0 +1,86 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8" /><link rel="stylesheet" type="text/css" href="https://unpkg.com/@davidsouther/jiffies-css" /><style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --font-family-base: Poppins;
+  --font-family-header: Orbitron;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body > main {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.cover {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (prefers-color-scheme: dark) {
+  a, [role=link] {
+    --text-color: #BBBBFF;
+  }
+}
+
+nav .breadcrumbs li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+nav .breadcrumbs li::marker {
+  content: '→';
+}
+
+:is(body,#body,#root)>aside:has(>nav) {
+  width: min-content;
+}
+
+:is(body,#body,#root)>aside>nav {
+  max-height: 90vh;
+  overscroll-behavior: contain;
+  overflow: scroll;
+}
+
+aside nav ul li a {
+  white-space: nowrap;
+}
+
+.table-of-contents {
+  container-type: size;
+
+  & > ol {
+    columns: var(--text-columns);
+  }
+}
+
+.table-of-contents {
+  --text-columns: 1;
+}
+
+@container (width > 600px) {
+  .table-of-contents > ol {
+    --text-columns: 3;
+  }
+}
+
+@container (width > 400px) {
+  .table-of-contents > ol {
+    --text-columns: 2;
+  }
+}
+
+</style></head><body><header class="fluid"><nav><!-- Cover --><h1><a href="/">Medina-99</a></h1><h2 /><h3>By David Souther</h3></nav></header><main class"><article id="40_adventures_20_mistress_zephira_cyper_criminal_50_uninterested_parties"><header><nav><h1>Uninterested Parties</h1><ol class="breadcrumbs"><li><a href="#40_adventures">Adventures</a></li><li><a href="#40_adventures_20_mistress_zephira_cyper_criminal">Mistress Zephira Cyper Criminal</a></li><li><a href="#40_adventures_20_mistress_zephira_cyper_criminal_50_uninterested_parties">Uninterested Parties</a></li></ol><a href="#">Top</a></nav></header><main><p><strong>1. Morwen Deep-Data</strong>: As the head of security for a major data farm -- which has so far been ignored by Zephira’s campaign -- the stoic Morwen has firsthand experience with protecting information from talented hackers. She might be convinced to lend her expertise in network security.</p>
+<p><strong>2. Sazir Corps</strong>: Sazir Corps is a biomedical corporation specializing in Xenobiology and they might have research on Rigel-7&#39;s species. If the players can convince the Sazir Corps that the case has some merit, they might agree to aid with information on Rigel-7&#39;s biology to anticipate his actions.</p>
+<p><strong>3. University of Stellar Studies (USS)</strong>: While not directly interested in the crime, the esteemed researchers and professors of the USS might be able to provide assistance in everything from understanding the cryptic hacking code to interpreting the alien biological clues left by Rigel-7.</p>
+<p><strong>4. &quot;Echo&quot;</strong>: An information broker who trades in secrets and favors, Echo isn’t particularly interested in sticky politics or the notion of hacktivism. But for the right price or a good enough trade, Echo might give the players valuable insights or information.</p>
+<p><strong>5. Zilfer AI Corp</strong>: This AI corporation, while unaffected by the crime, may be persuaded to lend their advanced AI resources or expertise. This may prove instrumental in safeguarding critical systems from Vox&#39;s technopathy or even tracking down the source of the cyber-attacks.</p>
+<p><strong>6. The Rusty Comet Pub</strong>: A run-down pub often frequented by former hackers, cyberpunks, and misfits of the tech world. It&#39;s proprietor, &quot;Old Cog&quot;, a legendary hacker from the earlier days of technology, may not appear interested but could provide insightful advice or connections for the players.</p></main></article></main><footer class="fluid"><nav>©2023 David Souther</nav></footer><script src="https://unpkg.com/@davidsouther/jiffies-css/accessibility.js"></script></body></html>

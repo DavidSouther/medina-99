@@ -1,0 +1,90 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8" /><link rel="stylesheet" type="text/css" href="https://unpkg.com/@davidsouther/jiffies-css" /><style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --font-family-base: Poppins;
+  --font-family-header: Orbitron;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body > main {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.cover {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (prefers-color-scheme: dark) {
+  a, [role=link] {
+    --text-color: #BBBBFF;
+  }
+}
+
+nav .breadcrumbs li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+nav .breadcrumbs li::marker {
+  content: '→';
+}
+
+:is(body,#body,#root)>aside:has(>nav) {
+  width: min-content;
+}
+
+:is(body,#body,#root)>aside>nav {
+  max-height: 90vh;
+  overscroll-behavior: contain;
+  overflow: scroll;
+}
+
+aside nav ul li a {
+  white-space: nowrap;
+}
+
+.table-of-contents {
+  container-type: size;
+
+  & > ol {
+    columns: var(--text-columns);
+  }
+}
+
+.table-of-contents {
+  --text-columns: 1;
+}
+
+@container (width > 600px) {
+  .table-of-contents > ol {
+    --text-columns: 3;
+  }
+}
+
+@container (width > 400px) {
+  .table-of-contents > ol {
+    --text-columns: 2;
+  }
+}
+
+</style></head><body><header class="fluid"><nav><!-- Cover --><h1><a href="/">Medina-99</a></h1><h2 /><h3>By David Souther</h3></nav></header><main class"><article id="40_adventures_12_sergeant_graxx_smuggler_50_uninterested_parties"><header><nav><h1>Uninterested Parties</h1><ol class="breadcrumbs"><li><a href="#40_adventures">Adventures</a></li><li><a href="#40_adventures_12_sergeant_graxx_smuggler">Sergeant Graxx Smuggler</a></li><li><a href="#40_adventures_12_sergeant_graxx_smuggler_50_uninterested_parties">Uninterested Parties</a></li></ol><a href="#">Top</a></nav></header><main><p><strong>Party 1: Dr. Elaina Hawthorne</strong> (Level – Lieutenant, Attributes - +1 Smarts, +1 Skill (Analysis), Aspect – “Brilliant Xenobiologist”)
+Dr. Hawthorne is a xenobiologist stationed at Medina-99. She has extensive knowledge about alien species and technologies, and could therefore help decrypt the alien Data-Tab or analyze the unique psychoactive substances. While she is primarily focused on her research and doesn’t concern herself with station politics or criminal activities, she does value scientific discovery and could be convinced to help in the name of further knowledge.</p>
+<p><strong>Party 2: Enzo &#39;Ziggy&#39; Zanetti</strong> (Level - Sergeant, Attributes - +1 Good (Technology), Aspect - &quot;Reclusive Technowizard&quot;)
+Ziggy is an eccentric recluse who lives in one of the quieter sectors of the Medina-99 station, known for being a genius with anything tech-related. His skills and knowledge could be very useful in solving the mystery of the Data-Tab and any other technological clues the players might come across. Ziggy doesn&#39;t care for politics or crime, but he has a soft spot for a technical challenge and could be persuaded to lend his expertise.</p>
+<p><strong>Party 3: Commander Assil Lohar</strong> (Level – Captain, Attributes - +2 Cool, +1 Grit, Aspects - &quot;Stoic Spacer, Experienced Negotiator&quot;)
+Commander Lohar is a highly respected figure in the interstellar ships&#39; docking and freight management. He has a wide range of real-time information about ships coming in and out of the station and their cargo. He has his hands full just making sure the station operates smoothly, but if the crime became a threat to logistics, he might be persuaded to help, or at least provide useful information.</p>
+<p><strong>Party 4: Astera Guild of Artificers</strong> (Level – General, Attributes - +2 Skill (Analysis), +2 Smarts, Aspects - &quot;Guardians of Ancient Knowledge, Mysterious and Neutral&quot;)
+The Astera Guild is an organization of artisans, inventors, and researchers with vast knowledge of both ancient and cutting-edge technology. They are disinterested in mundane crimes, but the unusual technology associated with the alien drug might intrigue them. They could be a valuable resource, providing important information or analysis to the players. Their help won&#39;t come easily though, the players would need to negotiate or trade something of equal value.</p>
+<p><strong>Party 5: Brother Levik</strong> (Level - Lieutenant, Attributes - +1 Cool, +1 Skill (Investigation), Aspect - &quot;Wise Old Bartender&quot;)
+Brother Levik runs &quot;Levik&#39;s Last Light,&quot; a popular watering hole on Medina-99, where people from all walks of life come to unwind. Levik has a knack for listening and has an ear to the pulse of the station, he knows all the local rumors and gossip. Levik might not want to get involved, but with his access to station gossip and rumours, he might provide the players with invaluable insights indirectly.</p></main></article></main><footer class="fluid"><nav>©2023 David Souther</nav></footer><script src="https://unpkg.com/@davidsouther/jiffies-css/accessibility.js"></script></body></html>

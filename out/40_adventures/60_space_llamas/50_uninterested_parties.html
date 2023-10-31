@@ -1,0 +1,91 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8" /><link rel="stylesheet" type="text/css" href="https://unpkg.com/@davidsouther/jiffies-css" /><style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --font-family-base: Poppins;
+  --font-family-header: Orbitron;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body > main {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.cover {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (prefers-color-scheme: dark) {
+  a, [role=link] {
+    --text-color: #BBBBFF;
+  }
+}
+
+nav .breadcrumbs li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+nav .breadcrumbs li::marker {
+  content: '→';
+}
+
+:is(body,#body,#root)>aside:has(>nav) {
+  width: min-content;
+}
+
+:is(body,#body,#root)>aside>nav {
+  max-height: 90vh;
+  overscroll-behavior: contain;
+  overflow: scroll;
+}
+
+aside nav ul li a {
+  white-space: nowrap;
+}
+
+.table-of-contents {
+  container-type: size;
+
+  & > ol {
+    columns: var(--text-columns);
+  }
+}
+
+.table-of-contents {
+  --text-columns: 1;
+}
+
+@container (width > 600px) {
+  .table-of-contents > ol {
+    --text-columns: 3;
+  }
+}
+
+@container (width > 400px) {
+  .table-of-contents > ol {
+    --text-columns: 2;
+  }
+}
+
+</style></head><body><header class="fluid"><nav><!-- Cover --><h1><a href="/">Medina-99</a></h1><h2 /><h3>By David Souther</h3></nav></header><main class"><article id="40_adventures_60_space_llamas_50_uninterested_parties"><header><nav><h1>Uninterested Parties</h1><ol class="breadcrumbs"><li><a href="#40_adventures">Adventures</a></li><li><a href="#40_adventures_60_space_llamas">Space Llamas</a></li><li><a href="#40_adventures_60_space_llamas_50_uninterested_parties">Uninterested Parties</a></li></ol><a href="#">Top</a></nav></header><main><ol>
+<li><p>The Dockers Union: Led by a down-to-earth Captain named Harry &quot;Big Hand&quot; Davis, he has a background in freight handling with a Good Skill in Management and an Average Grit. His aspects are &quot;From the Docks to the Stars&quot; and &quot;Always Help A Broke Down Rig&quot;. He might not particularly care about the llama wool smuggling until it becomes a problem within his docks. The players could convince him to keep tabs on unusual shipments, given his extensive networks. </p>
+</li>
+<li><p>Quantum Fiber Tech Corporation (QFTC): Specializing in the creation of synthetic fibers for spacesuits and daily wear, they might have an interest if the llama wool production is revealed to be tied to their business. A mid-level executive, Lieutenant Jane Papyrus with an Average Smarts and Skill in Technology and the aspect &quot;Never Met a Problem Technology Couldn&#39;t Solve&quot; could be approached for analysis and cross-referencing with their own fiber materials.</p>
+</li>
+<li><p>The Academics at the Medinian Institute of Zoology (MIZ): They might be too engrossed in their research to worry about illicit wildlife trafficking, but their immense knowledge and resources could prove beneficial. One of their researchers, Sergeant Dr. Winston Tharpe, having an Average Cool and the aspect &quot;Absent-Minded Professor&quot;, could be convinced to aid the players in better understanding the peculiarities of space llamas.</p>
+</li>
+<li><p>Space-Time Mall Retailers: Particularly those specializing in selling exotic pet accessories might unknowingly be involved in providing gear for the new space llama owners. The players can visit these stores for information about sudden bulk purchases or specific customers. One helpful retail worker, Mook-level Myrtle &quot;Cash Counter&quot; Cadence with a Poor Smarts and the aspect &quot;Likes Gossip More than Sales&quot; might prove more helpful than expected.</p>
+</li>
+</ol>
+<p>These uninterested parties could become invaluable sources of information, resources or aid in the players&#39; quest to uncover and dismantle the knitted network of crime, based on how well the players can engage and convince them.</p></main></article></main><footer class="fluid"><nav>©2023 David Souther</nav></footer><script src="https://unpkg.com/@davidsouther/jiffies-css/accessibility.js"></script></body></html>

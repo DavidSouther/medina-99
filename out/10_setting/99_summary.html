@@ -1,0 +1,86 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8" /><link rel="stylesheet" type="text/css" href="https://unpkg.com/@davidsouther/jiffies-css" /><style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --font-family-base: Poppins;
+  --font-family-header: Orbitron;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body > main {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.cover {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (prefers-color-scheme: dark) {
+  a, [role=link] {
+    --text-color: #BBBBFF;
+  }
+}
+
+nav .breadcrumbs li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+nav .breadcrumbs li::marker {
+  content: '→';
+}
+
+:is(body,#body,#root)>aside:has(>nav) {
+  width: min-content;
+}
+
+:is(body,#body,#root)>aside>nav {
+  max-height: 90vh;
+  overscroll-behavior: contain;
+  overflow: scroll;
+}
+
+aside nav ul li a {
+  white-space: nowrap;
+}
+
+.table-of-contents {
+  container-type: size;
+
+  & > ol {
+    columns: var(--text-columns);
+  }
+}
+
+.table-of-contents {
+  --text-columns: 1;
+}
+
+@container (width > 600px) {
+  .table-of-contents > ol {
+    --text-columns: 3;
+  }
+}
+
+@container (width > 400px) {
+  .table-of-contents > ol {
+    --text-columns: 2;
+  }
+}
+
+</style></head><body><header class="fluid"><nav><!-- Cover --><h1><a href="/">Medina-99</a></h1><h2 /><h3>By David Souther</h3></nav></header><main class"><article id="10_setting_99_summary"><header><nav><h1>Summary</h1><ol class="breadcrumbs"><li><a href="#10_setting">Setting</a></li><li><a href="#10_setting_99_summary">Summary</a></li></ol><a href="#">Top</a></nav></header><main><p>The Grell-I-10 Transfer Station is a cutting-edge feat of engineering and a bustling hub of interstellar life. Orbiting the sun ahead of Earth, the station serves as an intermediary point between warp-capable ships and in-system torch ships, accommodating a hubbub of galactic traffic.</p>
+<p>The station houses half a million permanent residents and hosts tens of thousands transients, maintaining a pulsing rhythm of life in the void of space. Its design includes a central zero-gravity cylinder connected to two expansive, counter-rotating habitation rings, and two main docks designed to cater any size of vehicle.</p>
+<p>Ship Dock Alpha or &quot;Gateway of Grell&quot; is where ships of different sizes are welcomed, while Ship Dock Beta or &quot;The Void&#39;s Vestibule&quot; primarily caters to repair and maintenance tasks. Smaller docks, such as Dock Zero and the Greenhouse Dock, cater for high-profile arrivals and botanical cultivation, respectively.</p>
+<p>The habitation rings mirror life on terrestrial planets, with the Alpha Ring packed with well-established neighborhoods and the Medina Ring resembling a suburban settlement. Recreational spots, businesses, and residences dot these areas, offering traits of a bustling city and serene suburban life.</p>
+<p>A robust mechanical and infrastructural backbone supports life in the Grell-I-10. A fusion reactor powers the station, while a water processing complex and hydroponic and aquaponic facilities ensure food and water supply. Furthermore, a levitating, magnetic train network ensures easy transportation between different points on the station.</p>
+<p>Whether it&#39;s solving interstellar mysteries or savoring an alien brew in a café, life at the Grell-I-10 Transfer Station thrives amidst routine and excitement. It symbolizes humanity&#39;s foothold in the cosmos, a testament to our ambition to conquer the final frontier - space itself.</p></main></article></main><footer class="fluid"><nav>©2023 David Souther</nav></footer><script src="https://unpkg.com/@davidsouther/jiffies-css/accessibility.js"></script></body></html>

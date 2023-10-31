@@ -1,0 +1,93 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8" /><link rel="stylesheet" type="text/css" href="https://unpkg.com/@davidsouther/jiffies-css" /><style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --font-family-base: Poppins;
+  --font-family-header: Orbitron;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body > main {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.cover {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (prefers-color-scheme: dark) {
+  a, [role=link] {
+    --text-color: #BBBBFF;
+  }
+}
+
+nav .breadcrumbs li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+nav .breadcrumbs li::marker {
+  content: '→';
+}
+
+:is(body,#body,#root)>aside:has(>nav) {
+  width: min-content;
+}
+
+:is(body,#body,#root)>aside>nav {
+  max-height: 90vh;
+  overscroll-behavior: contain;
+  overflow: scroll;
+}
+
+aside nav ul li a {
+  white-space: nowrap;
+}
+
+.table-of-contents {
+  container-type: size;
+
+  & > ol {
+    columns: var(--text-columns);
+  }
+}
+
+.table-of-contents {
+  --text-columns: 1;
+}
+
+@container (width > 600px) {
+  .table-of-contents > ol {
+    --text-columns: 3;
+  }
+}
+
+@container (width > 400px) {
+  .table-of-contents > ol {
+    --text-columns: 2;
+  }
+}
+
+</style></head><body><header class="fluid"><nav><!-- Cover --><h1><a href="/">Medina-99</a></h1><h2 /><h3>By David Souther</h3></nav></header><main class"><article id="40_adventures_30_robo_terrorist_50_uninterested_parties"><header><nav><h1>Uninterested Parties</h1><ol class="breadcrumbs"><li><a href="#40_adventures">Adventures</a></li><li><a href="#40_adventures_30_robo_terrorist">Robo Terrorist</a></li><li><a href="#40_adventures_30_robo_terrorist_50_uninterested_parties">Uninterested Parties</a></li></ol><a href="#">Top</a></nav></header><main><p>Further potential allies might be:</p>
+<ol>
+<li><p><strong>Draayna the Merchant Queen</strong>: A merchant, not directly concerned with the criminal activities or politics of the region, but her vast network of contacts and information could prove invaluable. She may not be particularly interested in the crime, but the detectives could barter for her cooperation with mutually beneficial conditions.</p>
+</li>
+<li><p><strong>The Technomage of Nyaralon</strong>: An eccentric figure obsessed with the mysticism of technology, currently tucked away in the obscure corners of the station. He might not be interested in the crime as it is, but he could offer significant aid in understanding the exotic tech involved in Coral&#39;s devices if properly persuaded.</p>
+</li>
+<li><p><strong>Rigel &quot;Rusty&quot; Starborn</strong>: A retired pilot of the Transport Union, now a hobbyist star mapper and astrologer. He doesn’t care much for what goes wrong on the docks or in the corporate halls, but with his local knowledge of the station and his old contacts in the transport business, he could provide the players with a fresh perspective and unexpected ingredients for their investigation.</p>
+</li>
+<li><p><strong>Silk Sirens</strong>: An underground band of hackers who usually remain apolitical and don’t care about what happens above the schematic virtual clouds. But they have the know-how to circumvent high-end security systems, and could prove instrumental if the detectives can convince them to lend their expertise against Coral&#39;s hacks.</p>
+</li>
+<li><p><strong>Fal&#39;Zhaan Monastery</strong>: A local alien sect devoted to the wisdom of the stars. They generally avoid meddling in mundane happenings, but their unique philosophies and star-related knowledge might be decisive in the face of a stellar core explosive. If the detectives can convince them that the balance of the stars is threatened, the monks could break their aloofness and assist.</p>
+</li>
+</ol></main></article></main><footer class="fluid"><nav>©2023 David Souther</nav></footer><script src="https://unpkg.com/@davidsouther/jiffies-css/accessibility.js"></script></body></html>

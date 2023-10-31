@@ -1,0 +1,87 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8" /><link rel="stylesheet" type="text/css" href="https://unpkg.com/@davidsouther/jiffies-css" /><style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --font-family-base: Poppins;
+  --font-family-header: Orbitron;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body > main {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.cover {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (prefers-color-scheme: dark) {
+  a, [role=link] {
+    --text-color: #BBBBFF;
+  }
+}
+
+nav .breadcrumbs li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+nav .breadcrumbs li::marker {
+  content: '→';
+}
+
+:is(body,#body,#root)>aside:has(>nav) {
+  width: min-content;
+}
+
+:is(body,#body,#root)>aside>nav {
+  max-height: 90vh;
+  overscroll-behavior: contain;
+  overflow: scroll;
+}
+
+aside nav ul li a {
+  white-space: nowrap;
+}
+
+.table-of-contents {
+  container-type: size;
+
+  & > ol {
+    columns: var(--text-columns);
+  }
+}
+
+.table-of-contents {
+  --text-columns: 1;
+}
+
+@container (width > 600px) {
+  .table-of-contents > ol {
+    --text-columns: 3;
+  }
+}
+
+@container (width > 400px) {
+  .table-of-contents > ol {
+    --text-columns: 2;
+  }
+}
+
+</style></head><body><header class="fluid"><nav><!-- Cover --><h1><a href="/">Medina-99</a></h1><h2 /><h3>By David Souther</h3></nav></header><main class"><article id="10_setting_31_medina"><header><nav><h1>Medina</h1><ol class="breadcrumbs"><li><a href="#10_setting">Setting</a></li><li><a href="#10_setting_31_medina">Medina</a></li></ol><a href="#">Top</a></nav></header><main><p>Dubbed as the suburban heart of Grell-I-10, the Medina Ring brings a sense of comforting familiarity amidst the high-tech haven of the transfer station. It takes the form of a toroidal neighborhood, perfectly mimicking Earth&#39;s gravity and atmosphere, setting it apart from the typically industrial or commercial areas of the station.</p>
+<p>The quarters in Medina Ring are designed for comfort and family living, offering plenty of open space. The typical home has several rooms and a common area. Many even boast small patios overlooking the vastness of space from large, atomically bonded windows - a constant reminder of the cosmos outside. </p>
+<p>Miniature parks and recreational areas dot the landscape, hosting artificial trees and grass from genetically modified seeds, capable of recycling air efficiently in the contained environment. Playgrounds can be found vibrating with the laughter of children, while holographically enhanced ball fields play host to nightly games where adults and children alike participate.</p>
+<p>A unique feature of Medina Ring is its array of cafes and small shops that sell crafts and keepsakes from various corners of the galaxy. From Martian red rock pendants to artisan crafting tools from Proxima b, these quaint shops add an air of earthy charm to the high-tech surroundings.</p>
+<p>Additionally, The Medina Ring is also notably home to the Starlight School, where children of Grell-I-10&#39;s residents receive education ranging from local station-based knowledge to advanced interstellar sciences. </p>
+<p>What truly makes Medina Ring unique is its community. The relatively slower pace of life allows for a sense of neighborliness, often hosting block parties, cookouts, and other communal events. It&#39;s normal to see your neighbor floating by your window, bearing a freshly baked loaf of moonbread to share. </p>
+<p>The solid ties between the habitation ring&#39;s inhabitants and the joys and tribulations of their lives create a soothing narrative of suburban life in the heart of outer space, making Medina Ring a truly special place to reside.</p></main></article></main><footer class="fluid"><nav>©2023 David Souther</nav></footer><script src="https://unpkg.com/@davidsouther/jiffies-css/accessibility.js"></script></body></html>

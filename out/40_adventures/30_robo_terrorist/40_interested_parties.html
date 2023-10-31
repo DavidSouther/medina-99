@@ -1,0 +1,93 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8" /><link rel="stylesheet" type="text/css" href="https://unpkg.com/@davidsouther/jiffies-css" /><style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --font-family-base: Poppins;
+  --font-family-header: Orbitron;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body > main {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.cover {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (prefers-color-scheme: dark) {
+  a, [role=link] {
+    --text-color: #BBBBFF;
+  }
+}
+
+nav .breadcrumbs li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+nav .breadcrumbs li::marker {
+  content: '→';
+}
+
+:is(body,#body,#root)>aside:has(>nav) {
+  width: min-content;
+}
+
+:is(body,#body,#root)>aside>nav {
+  max-height: 90vh;
+  overscroll-behavior: contain;
+  overflow: scroll;
+}
+
+aside nav ul li a {
+  white-space: nowrap;
+}
+
+.table-of-contents {
+  container-type: size;
+
+  & > ol {
+    columns: var(--text-columns);
+  }
+}
+
+.table-of-contents {
+  --text-columns: 1;
+}
+
+@container (width > 600px) {
+  .table-of-contents > ol {
+    --text-columns: 3;
+  }
+}
+
+@container (width > 400px) {
+  .table-of-contents > ol {
+    --text-columns: 2;
+  }
+}
+
+</style></head><body><header class="fluid"><nav><!-- Cover --><h1><a href="/">Medina-99</a></h1><h2 /><h3>By David Souther</h3></nav></header><main class"><article id="40_adventures_30_robo_terrorist_40_interested_parties"><header><nav><h1>Interested Parties</h1><ol class="breadcrumbs"><li><a href="#40_adventures">Adventures</a></li><li><a href="#40_adventures_30_robo_terrorist">Robo Terrorist</a></li><li><a href="#40_adventures_30_robo_terrorist_40_interested_parties">Interested Parties</a></li></ol><a href="#">Top</a></nav></header><main><p>Further interested parties may include:</p>
+<ol>
+<li><p><strong>The Corporate Elite</strong>: The high-powered executives and shareholders in the robotics company that dismissed Vaxis may have a keen interest in the outcome. They would want to see Vaxis stopped before his plans come to fruition as a demonstration of his dangerous genius could ruin their business’s reputation, and potential justice for his dismissal would not be palatable either.</p>
+</li>
+<li><p><strong>Kor&#39;Ra The Alien Crime Lord</strong>: The notorious Kor&#39;Ra would be interested in ensuring that Medina-99 stays quite as it is. This Alien Crime Lord has significant hidden investments running across this stellar hub of civilization. If Vaxis&#39; plan unfolds completely, it could destabilize the economy and have severe repercussions on his under-the-radar operations.</p>
+</li>
+<li><p><strong>Dr. Ferron Lux</strong>: Dr. Lux is an esteemed roboticist with a personal history with Vaxis, both being in the robotics field. Recently, he&#39;s been working towards creating AI rules and regulations for stellar systems, focusing on safety and ethics. The rogue robotic activity would not only affect residents&#39; opinion on robots but also pose a threat to his life&#39;s work.</p>
+</li>
+<li><p><strong>The Union of Stellar Transport Workers:</strong> If Vaxis takes control over Grell-I-10 Transfer Station, it would cause chaos in the interstellar transport system, impacting the jobs of thousands of workers unified in this union. They would have a vested interest in ensuring normalcy is restored before their livelihoods are jeopardized.</p>
+</li>
+<li><p><strong>Task Force Spectra:</strong> This Specialized multi-species enforcement division handles high-risk threats across the stellar hub. Although they usually handle larger scale issues, if Vaxis&#39;s plans escalate, they might step in, offering an interesting dynamic and potential support or competition to the players.</p>
+</li>
+</ol></main></article></main><footer class="fluid"><nav>©2023 David Souther</nav></footer><script src="https://unpkg.com/@davidsouther/jiffies-css/accessibility.js"></script></body></html>

@@ -1,0 +1,91 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8" /><link rel="stylesheet" type="text/css" href="https://unpkg.com/@davidsouther/jiffies-css" /><style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --font-family-base: Poppins;
+  --font-family-header: Orbitron;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body > main {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.cover {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (prefers-color-scheme: dark) {
+  a, [role=link] {
+    --text-color: #BBBBFF;
+  }
+}
+
+nav .breadcrumbs li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+nav .breadcrumbs li::marker {
+  content: '→';
+}
+
+:is(body,#body,#root)>aside:has(>nav) {
+  width: min-content;
+}
+
+:is(body,#body,#root)>aside>nav {
+  max-height: 90vh;
+  overscroll-behavior: contain;
+  overflow: scroll;
+}
+
+aside nav ul li a {
+  white-space: nowrap;
+}
+
+.table-of-contents {
+  container-type: size;
+
+  & > ol {
+    columns: var(--text-columns);
+  }
+}
+
+.table-of-contents {
+  --text-columns: 1;
+}
+
+@container (width > 600px) {
+  .table-of-contents > ol {
+    --text-columns: 3;
+  }
+}
+
+@container (width > 400px) {
+  .table-of-contents > ol {
+    --text-columns: 2;
+  }
+}
+
+</style></head><body><header class="fluid"><nav><!-- Cover --><h1><a href="/">Medina-99</a></h1><h2 /><h3>By David Souther</h3></nav></header><main class"><article id="40_adventures_60_space_llamas_40_interested_parties"><header><nav><h1>Interested Parties</h1><ol class="breadcrumbs"><li><a href="#40_adventures">Adventures</a></li><li><a href="#40_adventures_60_space_llamas">Space Llamas</a></li><li><a href="#40_adventures_60_space_llamas_40_interested_parties">Interested Parties</a></li></ol><a href="#">Top</a></nav></header><main><ol>
+<li><p>The Galactic Llama Rescue Society (GLRS): A group of dedicated animal welfare activists led by Captain Roberto &quot;Bob&quot; O&#39;Hara might be interested in investigating the sudden spike in llama pet ownership. His attributes include Good Smarts and Average Skills in animal rescue. His guiding aspects are &quot;Man&#39;s best friend comes in all forms&quot; and &quot;Doing it for the animals&quot;. They might become allies of the players if they are convinced about the illicit llama shearing operation.</p>
+</li>
+<li><p>Rogue trader Shava &quot;The Shark&quot; Johannson: A lieutenant-ranked individual who is known for dealing exotic animal products. Her attributes are an Average Muscle and Skill in trading. She isn&#39;t happy about other traders entering her territory, and may try to sabotage their operations, hinting at the Silver Foxes involvement. She carries the aspect &quot;I didn&#39;t claw my way up by sharing my pie&quot;.</p>
+</li>
+<li><p>Space Machu Picchu Tourism Board: A slight dip in llama sightings impact their touristic appeal, forcing them to take notice. A non-combatant NPC representative of the board, Manuel Pacha, an Average Grit official with the aspect &quot;Passionately protective of the tourism revenue&quot;.</p>
+</li>
+<li><p>Cosmic Fiber Confederacy: A somewhat mysterious and innocuous group of yarn aficionados who see the knitting grannies elevated products as unfair competition. They might want to put a stop to the Grannies&#39; operation, possibly by hiring a detective. They are led by Lydia, a non-combatant NPC with the aspect &quot;Wool is life, life is wool&quot;.</p>
+</li>
+</ol>
+<p>These interested parties provide possible allies, antagonists, as well as informational and resource avenues for the players as they navigate this &quot;hair-raising&quot; crime. They could also provide additional side quests or challenges depending on how the players interact with them.</p></main></article></main><footer class="fluid"><nav>©2023 David Souther</nav></footer><script src="https://unpkg.com/@davidsouther/jiffies-css/accessibility.js"></script></body></html>

@@ -1,0 +1,94 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8" /><link rel="stylesheet" type="text/css" href="https://unpkg.com/@davidsouther/jiffies-css" /><style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --font-family-base: Poppins;
+  --font-family-header: Orbitron;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body > main {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.cover {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (prefers-color-scheme: dark) {
+  a, [role=link] {
+    --text-color: #BBBBFF;
+  }
+}
+
+nav .breadcrumbs li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+nav .breadcrumbs li::marker {
+  content: '→';
+}
+
+:is(body,#body,#root)>aside:has(>nav) {
+  width: min-content;
+}
+
+:is(body,#body,#root)>aside>nav {
+  max-height: 90vh;
+  overscroll-behavior: contain;
+  overflow: scroll;
+}
+
+aside nav ul li a {
+  white-space: nowrap;
+}
+
+.table-of-contents {
+  container-type: size;
+
+  & > ol {
+    columns: var(--text-columns);
+  }
+}
+
+.table-of-contents {
+  --text-columns: 1;
+}
+
+@container (width > 600px) {
+  .table-of-contents > ol {
+    --text-columns: 3;
+  }
+}
+
+@container (width > 400px) {
+  .table-of-contents > ol {
+    --text-columns: 2;
+  }
+}
+
+</style></head><body><header class="fluid"><nav><!-- Cover --><h1><a href="/">Medina-99</a></h1><h2 /><h3>By David Souther</h3></nav></header><main class"><article id="40_adventures_20_mistress_zephira_cyper_criminal_30_plot"><header><nav><h1>Plot</h1><ol class="breadcrumbs"><li><a href="#40_adventures">Adventures</a></li><li><a href="#40_adventures_20_mistress_zephira_cyper_criminal">Mistress Zephira Cyper Criminal</a></li><li><a href="#40_adventures_20_mistress_zephira_cyper_criminal_30_plot">Plot</a></li></ol><a href="#">Top</a></nav></header><main><p>Should the players not intervene timely, Zephira and her team’s ongoing operations would inevitably lead to more clues. Here’s what the team might unintentionally leave behind:</p>
+<ol>
+<li><p><strong>Suspicious Energy Consumption</strong>: The server rooms in the Grell-I-10 Transfer Station might experience inexplicably high energy draws due to Zephira and Vox&#39;s hacking activities. This might cause the station&#39;s temperature control mechanisms to malfunction, raising questions from maintenance teams and savvy onlookers.</p>
+</li>
+<li><p><strong>Irrational Behaviour by AI Systems</strong>: Vox&#39;s technopathy would cause AI systems he interacts with to behave strangely. Security protocols, AI-based vending machines, telecommunications, and even the AI of player&#39;s own devices might spout gibberish or exhibit unusual glitches. These odd behaviors, if analyzed, could lead back to their operations.</p>
+</li>
+<li><p><strong>Physical Signs of Drone Recon</strong>: Plex&#39;s robotic creations would leave traces of their explorations. Slight damage to duct systems, or more refined robotics components (much like the one from previous operations) might be found at various out-of-reach or restricted locations.</p>
+</li>
+<li><p><strong>Data Anomalies</strong>: Zephira&#39;s data downloads would inevitably leave digital traces. Some data will show signs of being accessed or copied abnormally. These data anomalies can be picked up by advanced algorithms used for data integrity checks.</p>
+</li>
+<li><p><strong>Strange Illness</strong>: Rigel-7 is an alien whose biochemistry isn&#39;t entirely compatible with the human-populated Medina-99. Chronic exposure to his alien biology - an unusual skin cell here, an odd chemical secretion there - may result in mild, unexplainable illnesses in people who frequent areas where Rigel-7 spends a lot of time. Cyber-medical specialists or xenobiologists might make this connection.</p>
+</li>
+</ol>
+<p>If investigated closely, these signs would all point towards a well-coordinated operation conducted by entities skilled in hacking, robotics, and bearing an unusually advanced level of power and technology.</p></main></article></main><footer class="fluid"><nav>©2023 David Souther</nav></footer><script src="https://unpkg.com/@davidsouther/jiffies-css/accessibility.js"></script></body></html>

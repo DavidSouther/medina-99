@@ -1,0 +1,83 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8" /><link rel="stylesheet" type="text/css" href="https://unpkg.com/@davidsouther/jiffies-css" /><style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --font-family-base: Poppins;
+  --font-family-header: Orbitron;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body > main {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.cover {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (prefers-color-scheme: dark) {
+  a, [role=link] {
+    --text-color: #BBBBFF;
+  }
+}
+
+nav .breadcrumbs li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+nav .breadcrumbs li::marker {
+  content: '→';
+}
+
+:is(body,#body,#root)>aside:has(>nav) {
+  width: min-content;
+}
+
+:is(body,#body,#root)>aside>nav {
+  max-height: 90vh;
+  overscroll-behavior: contain;
+  overflow: scroll;
+}
+
+aside nav ul li a {
+  white-space: nowrap;
+}
+
+.table-of-contents {
+  container-type: size;
+
+  & > ol {
+    columns: var(--text-columns);
+  }
+}
+
+.table-of-contents {
+  --text-columns: 1;
+}
+
+@container (width > 600px) {
+  .table-of-contents > ol {
+    --text-columns: 3;
+  }
+}
+
+@container (width > 400px) {
+  .table-of-contents > ol {
+    --text-columns: 2;
+  }
+}
+
+</style></head><body><header class="fluid"><nav><!-- Cover --><h1><a href="/">Medina-99</a></h1><h2 /><h3>By David Souther</h3></nav></header><main class"><article id="40_adventures_40_captain_borlo_pirate_20_clue"><header><nav><h1>Clue</h1><ol class="breadcrumbs"><li><a href="#40_adventures">Adventures</a></li><li><a href="#40_adventures_40_captain_borlo_pirate">Captain Borlo Pirate</a></li><li><a href="#40_adventures_40_captain_borlo_pirate_20_clue">Clue</a></li></ol><a href="#">Top</a></nav></header><main><p>During the latest act of sabotage carried out by the team to test their warp jamming device, a small skirmish broke out between the pirates and the security forces of a small transport vessel. During the encounter, Uzol the &quot;Juggernaut&quot;, being the frontliner, lost a piece of his custom-made armor plating.</p>
+<p>This piece of armor is unique and distinctive, made from a rare alloy only found in the mining colonies of the harsh Yshlok Planet, a place known for high criminal activities and brute labor camps. The armor piece also bears the distinctive mark or symbol of the Ironfist pirates, a secret runic design known only to a few in the underworld that represents the brutal pirate captain Borlo &quot;The Ironfist&quot; Banes. </p>
+<p>This bit of armor might seem just a piece of junk at first, but to those knowledgeable in the galaxy&#39;s murkier dealings, it&#39;s a clue that an infamously ruthless pirate crew has set their sights on the Grell-I-10 Transfer Station of Medina-99. This would certainly spark an investigation by the detectives who patrol the habitation ring, as the safety and peace of their home turf are being threatened.</p></main></article></main><footer class="fluid"><nav>©2023 David Souther</nav></footer><script src="https://unpkg.com/@davidsouther/jiffies-css/accessibility.js"></script></body></html>
