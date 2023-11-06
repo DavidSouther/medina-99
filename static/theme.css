@@ -1,0 +1,33 @@
+@import url("./v2/index.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+  --body-font-family: Poppins;
+  --header-font-family: Orbitron;
+  --brand-chroma: 0.2;
+  --brand-hue: 255deg;
+  --brand-luminance: 80%;
+  --hyperlink-color: oklch(50% 0.5 90deg);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --brand-hue: 255deg;
+    --brand-chroma: 0.35;
+    --brand-luminance: 60%;
+    --hyperlink-color: oklch(100% 0.5 90deg);
+  }
+}
+
+body > .cover {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.table-of-contents {
+  columns: var(--content-columns);
+}
