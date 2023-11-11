@@ -2,3 +2,6 @@ title: Medina-99
 cover: ./cover.png
 author: David Souther
 toc_depth: 3
+gh_pages: true
+styles:
+  - /medina-99/theme.css
