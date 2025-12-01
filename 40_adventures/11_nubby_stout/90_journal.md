@@ -1,4 +1,5 @@
 ---
+combined: true
 debug:
   finish: stop
   id: chatcmpl-8FU1JeuxhkJIb7CdbM1q78DT3kQ9Y
@@ -11,26 +12,24 @@ isolated: false
 prompt: >
   Here are my notes from the session.
 
-  - Rob - went to Mars U
-  - Gena - has four arms with manipulator attachments
-  - Annie finds the EM radiation from behind the bar
-  - Annie finds a sealed door
-  - Avery tries to pick the lock and gets picked up by the local beat cops from the next 
-  - Rob tries to smooth talk them out of it.
-  - Gena used to work for the other precinct (transferred on the station)
-  - Carl has gone missing but disappeared, and has a matching EM Sig Fingerprint
-  - Maintenance will arrive in 10 to 15 business days.
-  - Realize it’s an archaic communications device.
-  - “You haven’t lived until you’ve had cow from the slopes of Olympus Mons”
-  - Far Traveler rave in the docks! Known for their beers!
-  - Rob was in the Far Travelers, and family docks on the nice quarter of Beta Docks.
-  - Producer has slicked back hair with a blue silk shirt.
-  - Kid tells them it’s a cell phone and they can now trace it.
-  - Block the signal, but the beer breaks again a couple days later!
-  - They follow the bad guys to Deej’s, and alert Deej whose security system knocks them out and catches them in the act!
-  - The heroes arrest the thieves.
+  - Rob - went to Mars U - Gena - has four arms with manipulator attachments -
+  Annie finds the EM radiation from behind the bar - Annie finds a sealed door -
+  Avery tries to pick the lock and gets picked up by the local beat cops from
+  the next  - Rob tries to smooth talk them out of it. - Gena used to work for
+  the other precinct (transferred on the station) - Carl has gone missing but
+  disappeared, and has a matching EM Sig Fingerprint - Maintenance will arrive
+  in 10 to 15 business days. - Realize it’s an archaic communications device. -
+  “You haven’t lived until you’ve had cow from the slopes of Olympus Mons” - Far
+  Traveler rave in the docks! Known for their beers! - Rob was in the Far
+  Travelers, and family docks on the nice quarter of Beta Docks. - Producer has
+  slicked back hair with a blue silk shirt. - Kid tells them it’s a cell phone
+  and they can now trace it. - Block the signal, but the beer breaks again a
+  couple days later! - They follow the bad guys to Deej’s, and alert Deej whose
+  security system knocks them out and catches them in the act! - The heroes
+  arrest the thieves.
 
-  Given the adventure scenario and these session notes, write out a story of the session.
+  Given the adventure scenario and these session notes, write out a story of the
+  session.
 ---
 
 The game session began in the comfortable confines of the Nubby Stout, a well-loved local hangout where our intrepid detectives enjoyed a break from their work. That ended abruptly when Oliver, the proprietor, announced that a technical malady had plagued his famed Nubby Stout, morphing it into repulsive Space Natty Light.

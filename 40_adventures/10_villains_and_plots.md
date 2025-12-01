@@ -1,14 +1,18 @@
 ---
-prompt: Come up with some villains and their goals. For example crimes, are they Smuggling? Murder? Heist or Theft? Kidnapping? Who are they, and what is their goal with the crime?
-generated: 2023-10-21T14:13:21.086Z
+combined: true
 debug:
-  {
-    "id": "chatcmpl-8C70SHe1asXGf1VfRg9NZXu4wK6qn",
-    "model": "gpt-4-0613",
-    "usage":
-      { "prompt_tokens": 654, "completion_tokens": 556, "total_tokens": 1210 },
-    "finish": "stop",
-  }
+  finish: stop
+  id: chatcmpl-8C70SHe1asXGf1VfRg9NZXu4wK6qn
+  model: gpt-4-0613
+  usage:
+    completion_tokens: 556
+    prompt_tokens: 654
+    total_tokens: 1210
+isolated: false
+prompt: >-
+  Come up with some villains and their goals. For example crimes, are they
+  Smuggling? Murder? Heist or Theft? Kidnapping? Who are they, and what is their
+  goal with the crime?
 ---
 
 1. **Villain: Sergeant Graxx** (Level - Sergeant, Attributes - +1 Toughness, +1 Muscle, Aspect - "Resilient Alien Brute")

@@ -1,4 +1,5 @@
 ---
+combined: true
 debug:
   finish: stop
   id: chatcmpl-8FV56sjUKcZFwupqoxjgJ7rm001Ax
